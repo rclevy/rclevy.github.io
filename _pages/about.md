@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: National Science Foundation Astronomny and Astrophysics Postdoctoral Fellow<br />University of Arizona
+subtitle: National Science Foundation Astronomy and Astrophysics Postdoctoral Fellow<br />University of Arizona
 
 profile:
   align: left
