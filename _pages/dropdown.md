@@ -1,13 +1,12 @@
 ---
 layout: page
-title: submenus
+permalink: /outreach/
+title: Outreach
+description: Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 6
-dropdown: true
-children: 
-    - title: publications
-      permalink: /publications/
-    - title: divider
-    - title: projects
-      permalink: /projects/
 ---
+
+For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+
+Organize your courses by years, topics, or universities, however you like!
