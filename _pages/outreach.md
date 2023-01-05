@@ -10,10 +10,10 @@ nav_order: 6
 As a PhD student at the University of Maryland, I was involved with [GRAD-MAP](http://www.umdgradmap.org) (Graduate Resources Advancing Diversity with Maryland Astronomy and Physics), which pairs undergraduates from historically black colleges and universities, minority serving institutions, and community colleges primarily from the mid-Atlantic region with a mentor in either the UMD astronomy or physics departments. During the winter break, these students attend a ten-day [Winter Workshop](https://www.umdgradmap.org/copy-of-winter-workshop), where they learn Python, work on a research project with their mentor(s), and learn information and resources to help them apply for graduate school. For four years, I served as a research mentor for a student. For the last three years, I developed the student's project independently and also assisted with some of the professional development during the Winter Workshop. In the summer of 2019, I was a co-mentor for a student in GRAD-MAP's ten-week [Summer Scholars program](https://www.umdgradmap.org/summer-scholars-1).
 
 <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/GRADMAP_SS2019.jpeg" title="GRAD-MAP Summer Scholars 2019" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/GRADMAP_2019.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 <div class="caption">
-    N. Feleke (middle) with two of his mentors, S. Vogel (left) and R. Levy (right), at the poster presentation for the 2019 GRAD-MAP Summer Scholars Program.
+    The attendees and some organizers of the 2019 GRAD-MAP Winter Workshop at the Green Bank Observatory trip.
 </div>
 
 
