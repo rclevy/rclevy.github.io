@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: National Science Foundation Astronomny and Astrophysics Postdoctoral Fellow<br />University of Arizona
 
@@ -14,8 +14,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## Welcome!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm a National Science Foundation Astronomy & Astrophysics Postdoctoral Fellow at the [University of Arizona](https://www.as.arizona.edu). I study the effects of stellar feedback in nearby galaxies using multiwavelength observations of gas tracers, with a focus on (sub)millimeter interferometric, near-far infrared, and optical IFU measurements.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I grew up outside of Houston, Texas. I received my B.S. degrees in Astronomy and Physics at the University of Arizona. I earned my M.S. and Ph.D. in Astronomy at the University of Maryland. In addition to astronomy, I love trying new restaurants and cuisines, cooking, traveling, and hiking. 
