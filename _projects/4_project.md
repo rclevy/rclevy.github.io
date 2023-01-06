@@ -6,8 +6,10 @@ img: assets/img/SDSSpanel_Ha.png
 importance: 4
 ---
 
+## JWST Views of Extraplanar Gas and Dust in NGC891
+I am involved in a [Cycle 1 JWST program](https://www.stsci.edu/jwst/phase2-public/2180.pdf) to use near- and mid-infrared data from JWST to measure the extraplanar gas and dust properties of the edge-on galaxy NGC891. Stay tuned for more updates about this project!
 
-## eDIG in Edge-On Galaxies
+## Extraplanar Diffuse Ionized Gas (eDIG) in Edge-On Galaxies
 #### [Levy et al. 2019](https://ui.adsabs.harvard.edu/abs/2019ApJ...882...84L/abstract)
 
 <div class="row">

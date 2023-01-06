@@ -33,3 +33,10 @@ We investigate the morpho-kinematic arrangement of the SSCs in the center of NGC
 </div>
 
 We detect massive outflows from forming super star clusters (SSCs) in the central starburst of NGC253 for the first time using 0.5 pc resolution data from ALMA. These outflows will have a substantial effect on the clusters' formation and evolution.
+
+## Other work I have been involved with on this topic
+- [Mills et al. 2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...919..105M/abstract)
+- [Emig et al. 2020](https://ui.adsabs.harvard.edu/abs/2020ApJ...903...50E/abstract)
+- [Krieger et al. 2020b](https://ui.adsabs.harvard.edu/abs/2020ApJ...899..158K/abstract)
+- [Krieger et al. 2020a](https://ui.adsabs.harvard.edu/abs/2020ApJ...897..176K/abstract)
+- [Leroy et al. 2018](https://ui.adsabs.harvard.edu/abs/2018ApJ...869..126L/abstract)

@@ -22,3 +22,9 @@ We use new observations from SOFIA to detect [CII] in the starburst nucleus and 
 ## JWST Views of Starburst Outflows
 
 I am involved in a [Cycle 1 JWST program](https://www.stsci.edu/jwst/phase2-public/1701.pdf) to measure the near- and mid-infrared properties of two archetypal starburst galaxies: NGC253 and M82. Stay tuned for more updates on this project!
+
+## Other work I have been involved with on this topic
+- [Bolatto et al. 2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...923...83B/abstract)
+- [Krieger et al. 2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...915L...3K/abstract)
+- [Krieger et al. 2019](https://ui.adsabs.harvard.edu/abs/2019ApJ...881...43K/abstract)
+- [Walter et al. 2017](https://ui.adsabs.harvard.edu/abs/2017ApJ...835..265W/abstract)
