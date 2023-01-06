@@ -3,16 +3,16 @@
   contents:
     - title: Lauren Cooke
       institution: Senior at Washington DC area high school
-      year: May 2020 #<br>Spring 2021
-    # - title: Brandon Davey
-    #   institution: Undergraduate at the University of South Florida
-    #   year: January 2020<br>(GRAD-MAP Winter Workshop)
-    # - title: Nathnael Feleke
-    #   institution: Undergraduate at Montgomery College - Takoma Park
-    #   year: Summer 2019 (GRAD-MAP Summer Scholars co-mentor), January 2019 (GRAD-MAP Winter Workshop)
-    # - title: Aurora Cid
-    #   institution: Undergraduate at CUNY College of Staten Island
-    #   year: January 2018 (GRAD-MAP Winter Workshop)
-    # - title: Natalia Ramírez Vega
-    #   institution: Undergraduate at the University of Costa Rica & Fidélitas University
-    #   year: January 2017 (GRAD-MAP Winter Workshop)
+      year: May 2020<br><br>Spring 2021
+    - title: Brandon Davey
+      institution: Undergraduate at the University of South Florida<
+      year: January 2020<br>(GRAD-MAP<br>Winter Workshop)
+    - title: Nathnael Feleke
+      institution: Undergraduate at Montgomery College - Takoma Park
+      year: Summer 2019<br>(GRAD-MAP<br>Summer Scholars<br>co-mentor)<br><br>January 2019<br>(GRAD-MAP<br>Winter Workshop)
+    - title: Aurora Cid
+      institution: Undergraduate at CUNY College of Staten Island
+      year: January 2018<br>(GRAD-MAP<br>Winter Workshop)
+    - title: Natalia Ramírez Vega
+      institution: Undergraduate at the University of Costa Rica & Fidélitas University
+      year: January 2017<br>(GRAD-MAP<br>Winter Workshop)
