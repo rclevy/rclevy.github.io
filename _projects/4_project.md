@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Extraplanar Diffuse Ionized Gas
+title: Extra-planar Diffuse Ionized Gas
 description:
 img: assets/img/SDSSpanel_Ha.png
 importance: 4
