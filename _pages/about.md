@@ -14,6 +14,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146151674-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146151674-1');
+</script>
+
 ## Welcome!
 
 I'm a National Science Foundation Astronomy & Astrophysics Postdoctoral Fellow at the [University of Arizona](https://www.as.arizona.edu). I study the effects of stellar feedback in nearby galaxies using multiwavelength observations of gas tracers, with a focus on (sub)millimeter interferometric, near-far infrared, and optical IFU measurements.
