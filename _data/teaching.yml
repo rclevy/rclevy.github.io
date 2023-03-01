@@ -2,23 +2,23 @@
   type: time_table
   contents:
     - title: ASTR 121<br>Introductory Astrophysics II - Stars and Beyond
-      institution: Teaching and Lab Assistant
+      institution: Teaching and Lab Assistant<br><i>U. Maryland</i>
       year: Spring 2020
     - title: ASTR 120<br>Introductory Astrophysics - Solar System
-      institution: Teaching Assistant   
+      institution: Teaching Assistant<br><i>U. Maryland</i>
       year: Fall 2019
     - title: PHYS 141<br>Introductory Mechanics
-      institution: Preceptor
+      institution: Preceptor<br><i>U. Arizona</i>
       year: Spring 2014
     - title: MATH 100, 100AX<br>Prep for College Algebra
-      institution: Undergraduate Teaching Coordinator
+      institution: Undergraduate Teaching Coordinator<br><i>U. Arizona</i>
       year: Spring 2013
     - title: MATH 100, 100AX<br>Prep for College Algebra
-      institution: Undergraduate Teaching Coordinator
+      institution: Undergraduate Teaching Coordinator<br><i>U. Arizona</i>
       year: Fall 2012
     - title: MATH 100, 100AX<br>Prep for College Algebra
-      institution: Lead Undergraduate Teaching Assistant
+      institution: Lead Undergraduate Teaching Assistant<br><i>U. Arizona</i>
       year: Spring 2012
     - title: MATH 100, 100AX<br>Prep for College Algebra
-      institution: Undergraduate Teaching Assistant
+      institution: Undergraduate Teaching Assistant<br><i>U. Arizona</i>
       year: Fall 2011
