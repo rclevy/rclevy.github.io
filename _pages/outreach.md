@@ -14,7 +14,7 @@ Currently, I am involved with the Women in Science and Engineering ([WISE](https
         {% include figure.html path="assets/img/IYSF_02202023.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 <div class="caption">
-    R. Levy as a guest lecture for the Imagine Your STEM Future program. Photo by G. Perez.
+    R. Levy as a guest lecturer for the Imagine Your STEM Future program. Photo by G. Perez.
 </div>
 
 ### GRAD-MAP
