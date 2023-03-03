@@ -1,17 +1,32 @@
             {%- if site.email -%}
             <a href="mailto:{{ site.email | encode_email }}" title="Email"><i class="fas fa-envelope"></i></a>
             {% endif %}
+            {%- if site.github_username -%}
+            <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
+            {% endif %}
+            {%- if site.linkedin_username -%}
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            {% endif %}
+            {%- if site.twitter_username -%}
+            <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a>
+            {% endif %}
+            {%- if site.orcid_id -%}
+            <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
+            {% endif %}
+            {%- if site.ads_lib -%}
+            <a href="{{ site.ads_lib }}" title="ADS"><i class="fas fa-newspaper"></i></a>
+            {% endif %}
+            {%- if site.cv_url -%}
+            <a href="{{ site.cv_url }}" title="CV"><i class="fas fa-file-pdf"></i></a>
+            {% endif %}
+            {%- if site.scholar_userid -%}
+            <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+            {% endif %}
             {%- if site.telegram_username -%}
             <a href="https://telegram.me/{{ site.telegram_username }}" title="telegram"><i class="fab fa-telegram"></i></a>
             {% endif %}
             {%- if site.whatsapp_number -%}
             <a href="https://wa.me/{{ site.whatsapp_number }}" title="whatsapp"><i class="fab fa-whatsapp"></i></a>
-            {% endif %}
-            {%- if site.orcid_id -%}
-            <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
-            {% endif %}
-            {%- if site.scholar_userid -%}
-            <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
             {% endif %}
             {%- if site.semanticscholar_id -%}
             <a href="https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>
@@ -21,15 +36,6 @@
             {% endif %}
             {%- if site.research_gate_profile -%}
             <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
-            {% endif %}
-            {%- if site.github_username -%}
-            <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
-            {% endif %}
-            {%- if site.linkedin_username -%}
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            {% endif %}
-            {%- if site.twitter_username -%}
-            <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a>
             {% endif %}
             {%- if site.mastodon_username -%}
             <a rel="me" href="https://{{ site.mastodon_username  }}" title="Mastodon"><i class="fab fa-mastodon"></i></a>
