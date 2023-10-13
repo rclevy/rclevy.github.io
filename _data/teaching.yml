@@ -25,3 +25,10 @@
     - title: MATH 100, 100AX<br>Prep for College Algebra
       institution: Undergraduate Teaching Assistant<br><i>U. Arizona</i>
       year: Fall 2011
+
+- title: Resources
+  type: nested_list
+  contents:
+    - title: Moon Balls
+      description: A hands-on activity to teach the phases of the moon, based on two activites from UAYF.
+      items: UAYF
