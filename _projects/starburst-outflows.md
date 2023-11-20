@@ -9,7 +9,7 @@ category:
 
 
 ## Velocity-resolved [CII] in and around M82
-#### Levy et al. 2023, in prep.
+#### [Levy et al. 2023](https://ui.adsabs.harvard.edu/abs/2023ApJ...958..109L/abstract)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
