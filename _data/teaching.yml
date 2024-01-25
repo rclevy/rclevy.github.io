@@ -1,3 +1,19 @@
+- title: Resources
+  type: nested_list
+  contents:
+    - title: Moon Balls
+      description: A hands-on activity to teach the phases of the moon. Suitable for 4th grade and beyond. 
+      items: 
+        - <a href="https://drive.google.com/drive/folders/1UUYzn8Jej_imQFitYFOTIEtYxPLFBB2p?usp=drive_link" target="_blank">Link to Google Drive repository</a>
+    - title: LaTeX Examples with Overleaf
+      description: Introductory lesson on using LeTeX in Overleaf
+      items: 
+        - <a href="https://github.com/rclevy/LaTeX-Examples-with-Overleaf-for-ASTR-695" target="_blank">Link to GitHub repository</a>
+    - title: A Beginner's Guide to Working with Astronomical Data
+      description: A wonderful introductory guide by Markus Pössel to help students get started with astronomical research and tools.
+      items:
+        - <a href="https://arxiv.org/pdf/1905.13189.pdf" target="_blank">Link to Guide</a>
+
 - title: Courses Taught
   type: time_table
   contents:
@@ -29,14 +45,4 @@
       institution: Undergraduate Teaching Assistant<br><i>U. Arizona</i>
       year: Fall 2011
 
-- title: Resources
-  type: nested_list
-  contents:
-    - title: Moon Balls
-      description: A hands-on activity to teach the phases of the moon. Suitable for 4th grade and beyond. 
-      items: 
-        - <a href="https://drive.google.com/drive/folders/1UUYzn8Jej_imQFitYFOTIEtYxPLFBB2p?usp=drive_link" target="_blank">Link to Google Drive repository</a>
-    - title: LaTeX Examples with Overleaf
-      description: Introductory lesson on using LeTeX in Overleaf
-      items: 
-        - <a href="https://github.com/rclevy/LaTeX-Examples-with-Overleaf-for-ASTR-695" target="_blank">Link to GiyHub repository</a>
+
