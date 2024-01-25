@@ -18,7 +18,7 @@
   type: time_table
   contents:
     - title: ACBS 493/ECOL 499/GEOS 393/NSCS 393<br> The Bio/Diversity Project Internship Program
-      institution: Guest Lecturer<br><i>U. Arizona</i>
+      institution: <a href="https://github.com/rclevy/rclevy.github.io/blob/master/assets/pdf/BioDiversity_GuestLecture_TranslationalSciComm_RLevy_20230405.pdf" target="_blank">Guest Lecturer</a><br><i>U. Arizona</i>
       year: Apr 2023
     - title: ASTR 121<br>Introductory Astrophysics II - Stars and Beyond
       institution: Teaching and Lab Assistant<br><i>U. Maryland</i>
@@ -27,7 +27,7 @@
       institution: Teaching Assistant<br><i>U. Maryland</i>
       year: Fall 2019
     - title: ASTR 695<br>First Year Seminar
-      institution: Guest Lecturer<br><i>U. Maryland</i>
+      institution: <a href="https://github.com/rclevy/LaTeX-Examples-with-Overleaf-for-ASTR-695" target="_blank">Guest Lecturer</a><br><i>U. Maryland</i>
       year: Fall 2018
     - title: PHYS 141<br>Introductory Mechanics
       institution: Preceptor<br><i>U. Arizona</i>
