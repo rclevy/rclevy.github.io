@@ -10,6 +10,9 @@
     - title: ASTR 120<br>Introductory Astrophysics - Solar System
       institution: Teaching Assistant<br><i>U. Maryland</i>
       year: Fall 2019
+    - title: ASTR 695<br>First Year Seminar
+      institution: Guest Lecturer<br><i>U. Maryland</i>
+      year: Fall 2018
     - title: PHYS 141<br>Introductory Mechanics
       institution: Preceptor<br><i>U. Arizona</i>
       year: Spring 2014
@@ -30,7 +33,10 @@
   type: nested_list
   contents:
     - title: Moon Balls
-      description: A hands-on activity to teach the phases of the moon, based on a combination of the following activites from UAYF.
+      description: A hands-on activity to teach the phases of the moon. Suitable for 4th grade and beyond. 
       items: 
-        - <a href="https://github.com/rclevy/rclevy.github.io/blob/master/assets/pdf/UAYF_Modeling_Moon_Phases.pdf" target="_blank">UAYF Modeling Moon Phases</a>
-        - <a href="https://github.com/rclevy/rclevy.github.io/blob/master/assets/pdf/UAYF_Moon_Rise_Set.pdf" target="_blank">UAYF Moon Rise, Moon Set</a>
+        - <a href="https://drive.google.com/drive/folders/1UUYzn8Jej_imQFitYFOTIEtYxPLFBB2p?usp=drive_link" target="_blank">Link to Google Drive repository</a>
+    - title: LaTeX Examples with Overleaf
+      description: Introductory lesson on using LeTeX in Overleaf
+      items: 
+        - <a href="https://github.com/rclevy/LaTeX-Examples-with-Overleaf-for-ASTR-695" target="_blank">Link to GiyHub repository</a>
