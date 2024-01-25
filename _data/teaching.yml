@@ -2,7 +2,7 @@
   type: nested_list
   contents:
     - title: Moon Balls Lunar Phases Activity
-      description: A hands-on activity to teach the phases of the moon, developed for the <a href\"https://wise.arizona.edu/imagine-your-stem-future" target="_blank">IYSF program</a> and based on activities from the <a href="https://eric.ed.gov/?id=ED399149" target="_blank">UAYF</a>. Suitable for 4th grade and beyond. 
+      description: A hands-on activity to teach the phases of the moon, developed for the <a href="https://wise.arizona.edu/imagine-your-stem-future" target="_blank">IYSF program</a> and based on activities from the <a href="https://eric.ed.gov/?id=ED399149" target="_blank">UAYF</a>. Suitable for 4th grade and beyond. 
       items: 
         - <a href="https://drive.google.com/drive/folders/1UUYzn8Jej_imQFitYFOTIEtYxPLFBB2p?usp=drive_link" target="_blank">Link to Google Drive repository</a>
     - title: LaTeX Examples with Overleaf
