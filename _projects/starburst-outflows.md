@@ -16,14 +16,13 @@ We detect the base of the superwind in M82 in PAH emission and reveal a highly f
 
 ## Velocity-resolved [CII] in and around M82
 #### [Levy et al. 2023](https://ui.adsabs.harvard.edu/abs/2023ApJ...958..109L/abstract)
+We use new observations from SOFIA to detect [CII] in the starburst nucleus and southern outflow of M82. We find that most of the [CII] in the outflow of M82 is associated with the neutral atomic gas.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Levy2023_M82.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
-We use new observations from SOFIA to detect [CII] in the starburst nucleus and southern outflow of M82. We find that most of the [CII] in the outflow of M82 is associated with the neutral atomic gas.
 
 ## Other work I have been involved with on this topic
 - [Bolatto et al. 2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...923...83B/abstract)
