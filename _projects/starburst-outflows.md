@@ -6,7 +6,13 @@ img: assets/img/M82_CII_composite.png
 importance: 1
 category:
 ---
+## JWST Views of Starburst Outflows
 
+I am involved in a [Cycle 1 JWST program](https://www.stsci.edu/jwst/phase2-public/1701.pdf) to measure the near- and mid-infrared properties of two archetypal starburst galaxies: NGC253 and M82.
+
+#### [Bolatto, Levy et al. 2024](https://ui.adsabs.harvard.edu/abs/2024arXiv240116648B/abstract)
+
+We detect the base of the superwind in M82 in PAH emission and reveal a highly filamentary and bubble-like structure. The PAH emission resembles that of the ionized gas, suggesting that the PAHs are embedded in a combination of neutral, molecular, and photoionized gas (see also Fisher et al. in prep.).
 
 ## Velocity-resolved [CII] in and around M82
 #### [Levy et al. 2023](https://ui.adsabs.harvard.edu/abs/2023ApJ...958..109L/abstract)
@@ -18,10 +24,6 @@ category:
 </div>
 
 We use new observations from SOFIA to detect [CII] in the starburst nucleus and southern outflow of M82. We find that most of the [CII] in the outflow of M82 is associated with the neutral atomic gas.
-
-## JWST Views of Starburst Outflows
-
-I am involved in a [Cycle 1 JWST program](https://www.stsci.edu/jwst/phase2-public/1701.pdf) to measure the near- and mid-infrared properties of two archetypal starburst galaxies: NGC253 and M82. Stay tuned for more updates on this project!
 
 ## Other work I have been involved with on this topic
 - [Bolatto et al. 2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...923...83B/abstract)
