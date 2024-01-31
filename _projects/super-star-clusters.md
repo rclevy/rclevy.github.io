@@ -9,7 +9,7 @@ category:
 
 ## JWST Views of Feedback from Super Star Clusters
 
-I am involved in a [Cycle 1 JWST program](https://www.stsci.edu/jwst/phase2-public/1701.pdf) to measure the near- and mid-infrared properties of the super star clusters in two archetypcal starburst galaxies: NGC253 and M82. Stay tuned for more updates on this project!
+I am involved in a [Cycle 1 JWST program](https://www.stsci.edu/jwst/phase2-public/1701.pdf) to measure the near- and mid-infrared properties of the super star clusters in two archetypcal starburst galaxies: NGC253 and M82. Stay tuned for more updates on this project (Levy et al. 2024, in prep.)!
 
 ## The Morpho-kinematic Architecture of the the SSCs in NGC253
 #### [Levy et al. 2022](https://ui.adsabs.harvard.edu/abs/2022ApJ...935...19L/abstract)
@@ -35,6 +35,7 @@ We investigate the morpho-kinematic arrangement of the SSCs in the center of NGC
 We detect massive outflows from forming super star clusters (SSCs) in the central starburst of NGC253 for the first time using 0.5 pc resolution data from ALMA. These outflows will have a substantial effect on the clusters' formation and evolution.
 
 ## Other work I have been involved with on this topic
+- [Sun et al. 2024](https://ui.adsabs.harvard.edu/abs/2024arXiv240114453S/abstract)
 - [Mills et al. 2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...919..105M/abstract)
 - [Emig et al. 2020](https://ui.adsabs.harvard.edu/abs/2020ApJ...903...50E/abstract)
 - [Krieger et al. 2020b](https://ui.adsabs.harvard.edu/abs/2020ApJ...899..158K/abstract)
