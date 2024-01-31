@@ -14,6 +14,12 @@ I am involved in a [Cycle 1 JWST program](https://www.stsci.edu/jwst/phase2-publ
 
 We detect the base of the superwind in M82 in PAH emission and reveal a highly filamentary and bubble-like structure. The PAH emission resembles that of the ionized gas, suggesting that the PAHs are embedded in a combination of neutral, molecular, and photoionized gas (see also Fisher et al. in prep.).
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Bolatto2024.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 ## Velocity-resolved [CII] in and around M82
 #### [Levy et al. 2023](https://ui.adsabs.harvard.edu/abs/2023ApJ...958..109L/abstract)
 We use new observations from SOFIA to detect [CII] in the starburst nucleus and southern outflow of M82. We find that most of the [CII] in the outflow of M82 is associated with the neutral atomic gas.
