@@ -6,6 +6,8 @@ img: assets/img/Cooke_Levy.png
 importance: 3
 ---
 
+<a href="https://rclevy.github.io/projects/" title="Back to Projects" target="_self"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+
 ## Dynamical Measurements of Dark Matter Profiles of Dwarf Galaxies
 #### [Cooke, Levy et al. 2021](https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.1012C/abstract)
 

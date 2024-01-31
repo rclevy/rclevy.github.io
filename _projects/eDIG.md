@@ -6,6 +6,8 @@ img: assets/img/SDSSpanel_Ha.png
 importance: 4
 ---
 
+<a href="https://rclevy.github.io/projects/" title="Back to Projects" target="_self"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+
 ## JWST Views of Extraplanar Gas and Dust in NGC891
 I am involved in a [Cycle 1 JWST program](https://www.stsci.edu/jwst/phase2-public/2180.pdf) to use near- and mid-infrared data from JWST to measure the extraplanar gas and dust properties of the edge-on galaxy NGC891. Stay tuned for more updates about this project!
 
