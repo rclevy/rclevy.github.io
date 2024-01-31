@@ -14,25 +14,24 @@ I am involved in a [Cycle 1 JWST program](https://www.stsci.edu/jwst/phase2-publ
 ## The Morpho-kinematic Architecture of the the SSCs in NGC253
 #### [Levy et al. 2022](https://ui.adsabs.harvard.edu/abs/2022ApJ...935...19L/abstract)
 
+We investigate the morpho-kinematic arrangement of the SSCs in the center of NGC253. We find that the SSCs and dense molecular gas are located on the same scale as the x2 orbits, where gas is expected to pile up as it flows inward along the bar. The 3D structure of the SSCs is well described by an elliptical, angular momentum-conserving ring.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/ngc253_SSCs_AngMomConsRing_XY_CS.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-We investigate the morpho-kinematic arrangement of the SSCs in the center of NGC253. We find that the SSCs and dense molecular gas are located on the same scale as the x2 orbits, where gas is expected to pile up as it flows inward along the bar. The 3D structure of the SSCs is well described by an elliptical, angular momentum-conserving ring.
-
-
 ## Outflows from Young Massive Clusters
 #### [Levy et al. 2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...912....4L/abstract)
+
+We detect massive outflows from forming super star clusters (SSCs) in the central starburst of NGC253 for the first time using 0.5 pc resolution data from ALMA. These outflows will have a substantial effect on the clusters' formation and evolution.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/ngc253_cont_PCygniSpectra_cs76_labeled.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
-We detect massive outflows from forming super star clusters (SSCs) in the central starburst of NGC253 for the first time using 0.5 pc resolution data from ALMA. These outflows will have a substantial effect on the clusters' formation and evolution.
 
 ## Other work I have been involved with on this topic
 - [Sun et al. 2024](https://ui.adsabs.harvard.edu/abs/2024arXiv240114453S/abstract)
