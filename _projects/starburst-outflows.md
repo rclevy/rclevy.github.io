@@ -2,7 +2,7 @@
 layout: page
 title: Starburst-driven Outflows
 description:
-img: assets/img/M82_CII_composite.png
+img: assets/img/M82_STScI_1.png
 importance: 1
 category:
 ---
