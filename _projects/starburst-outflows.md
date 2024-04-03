@@ -23,6 +23,8 @@ We detect the base of the superwind in M82 in PAH emission and reveal a highly f
     </div>
 </div>
 
+See also this NASA Press Release: ["NASA’s Webb Probes an Extreme Starburst Galaxy"](https://science.nasa.gov/missions/webb/nasas-webb-probes-an-extreme-starburst-galaxy/)
+
 ## Velocity-resolved [CII] in and around M82
 #### [Levy et al. 2023](https://ui.adsabs.harvard.edu/abs/2023ApJ...958..109L/abstract)
 We use new observations from SOFIA to detect [CII] in the starburst nucleus and southern outflow of M82. We find that most of the [CII] in the outflow of M82 is associated with the neutral atomic gas.
