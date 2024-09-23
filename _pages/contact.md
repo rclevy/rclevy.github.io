@@ -9,11 +9,10 @@ nav_order: 7
 social: true  # includes social icons at the top of the page
 ---
 
-Email: rebeccalevy(at)arizona(dot)edu<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rlevy(dot)astro(at)gmail(dot)com<br>
+Email: rlevy(dot)astro(at)gmail(dot)com<br>
+       rlevy(at)stsci(dot)edu
 
-Address: Department of Astronomy/Steward Observatory<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Arizona<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;933 North Cherry Avenue<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tucson, AZ 85721-0065<br>
-Office: Room N324
+Address: Space Telescope Science Institute<br>
+         3700 San Martin Dr.<br>
+         Baltimore, MD 21218<br>
+
