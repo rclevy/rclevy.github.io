@@ -2,9 +2,9 @@
   type: map
   contents:
     - name: Current Position
-      value: National Science Foundation Astronomy and Astrophysics Postdoctoral Fellow<br>Department of Astronomy/ Steward Observatory<br />University of Arizona
+      value: STScI Postdoctoral Fellow<br>Space Telescope Science Institute (STScI)
     - name: Email
-      value: rebeccalevy@arizona.edu
+      value: rlevy.astro@gmail.com
 
 
 - title: Education
@@ -23,9 +23,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: STScI Postdoctoral Fellow
+      institution: Space Telescope Science Institute
+      year: 2024-
     - title: National Science Foundation Astronomy and Astrophysics Postdoctoral Fellow
       institution: University of Arizona
-      year: 2021-Present
+      year: 2021-2024
     - title: Graduate Research Assistant
       institution: University of Maryland
       year: 2015-2021
