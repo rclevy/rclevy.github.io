@@ -10,8 +10,8 @@ social: true  # includes social icons at the top of the page
 ---
 
 Email:<br>
-- rlevy(dot)astro(at)gmail(dot)com<br>
-- rlevy(at)stsci(dot)edu
+rlevy(dot)astro(at)gmail(dot)com<br>
+rlevy(at)stsci(dot)edu
 
 Address:<br>
 Space Telescope Science Institute<br>
