@@ -9,10 +9,12 @@ nav_order: 7
 social: true  # includes social icons at the top of the page
 ---
 
-Email: rlevy(dot)astro(at)gmail(dot)com<br>
-       rlevy(at)stsci(dot)edu
+Email:<br>
+- rlevy(dot)astro(at)gmail(dot)com<br>
+- rlevy(at)stsci(dot)edu
 
-Address: Space Telescope Science Institute<br>
-         3700 San Martin Dr.<br>
-         Baltimore, MD 21218<br>
+Address:<br>
+Space Telescope Science Institute<br>
+3700 San Martin Dr.<br>
+Baltimore, MD 21218<br>
 
