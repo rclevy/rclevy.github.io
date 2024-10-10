@@ -15,7 +15,7 @@ We detect more than 1300 star clusters in the center of M82 with stellar masses 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/M82_F140M-F250M-F360M_asinh_inset_HST.png.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/M82_F140M-F250M-F360M_asinh_inset_HST.png" title="M82 NIRCam short wavelength filters" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -26,7 +26,7 @@ We investigate the morpho-kinematic arrangement of the SSCs in the center of NGC
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/ngc253_SSCs_AngMomConsRing_XY_CS.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ngc253_SSCs_AngMomConsRing_XY_CS.png" title="Central Molecular Zone of NGC253" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -37,7 +37,7 @@ We detect massive outflows from forming super star clusters (SSCs) in the centra
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/ngc253_cont_PCygniSpectra_cs76_labeled.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ngc253_cont_PCygniSpectra_cs76_labeled.png" title="Outflows from SSCs in NGC253" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
