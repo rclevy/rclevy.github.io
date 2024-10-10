@@ -3,7 +3,7 @@ layout: page
 title: Super Star Clusters
 description:
 img: assets/img/M82_NIRCam.png
-importance: 2
+importance: 1
 category:
 ---
 
