@@ -16,7 +16,7 @@ We detect more than 1300 star clusters in the center of M82 with stellar masses 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/M82_F140M-F250M-F360M_asinh_inset_HST.png" title="Massive star clusters detected in M82 with JWST NIRCam" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/F140M-F250M-F360M_asinh_inset_HST.jpg" title="Massive star clusters detected in M82 with JWST NIRCam" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
