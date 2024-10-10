@@ -9,9 +9,15 @@ category:
 
 <a href="https://rclevy.github.io/projects/" title="Back to Projects" target="_self"><i class="fas fa-arrow-left"></i> Back to Projects</a>
 
-## JWST Views of Feedback from Super Star Clusters
+## Young Massive Star Clusters in M82 with JWST
 
-I am involved in a [Cycle 1 JWST program](https://www.stsci.edu/jwst/phase2-public/1701.pdf) to measure the near- and mid-infrared properties of the super star clusters in two archetypcal starburst galaxies: NGC253 and M82. Stay tuned for more updates on this project (Levy et al. 2024, in prep.)!
+We detect more than 1300 star clusters in the center of M82 with stellar masses greater than 10,000 Msun. Almost 90% of them are new compared to previous Hubble-based star cluster catalogs. Even though we detect these clusters in the infrared, they still have appreciable dust extinctions (Av ~ 3-24 mag)!
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ngc253_SSCs_AngMomConsRing_XY_CS.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ## The Morpho-kinematic Architecture of the the SSCs in NGC253
 #### [Levy et al. 2022](https://ui.adsabs.harvard.edu/abs/2022ApJ...935...19L/abstract)
@@ -36,7 +42,8 @@ We detect massive outflows from forming super star clusters (SSCs) in the centra
 </div>
 
 ## Other work I have been involved with on this topic
-- [Sun et al. 2024](https://ui.adsabs.harvard.edu/abs/2024arXiv240114453S/abstract)
+- [Sun et al. 2024](https://ui.adsabs.harvard.edu/abs/2024ApJ...967..133S/abstract)
+- [Maschmann et al. 2024](https://ui.adsabs.harvard.edu/abs/2024ApJS..273...14M/abstract)
 - [Mills et al. 2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...919..105M/abstract)
 - [Emig et al. 2020](https://ui.adsabs.harvard.edu/abs/2020ApJ...903...50E/abstract)
 - [Krieger et al. 2020b](https://ui.adsabs.harvard.edu/abs/2020ApJ...899..158K/abstract)
