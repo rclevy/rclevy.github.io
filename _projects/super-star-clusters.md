@@ -10,12 +10,13 @@ category:
 <a href="https://rclevy.github.io/projects/" title="Back to Projects" target="_self"><i class="fas fa-arrow-left"></i> Back to Projects</a>
 
 ## Young Massive Star Clusters in M82 with JWST
+#### [Levy et al. 2024b]([https://ui.adsabs.harvard.edu/abs/2022ApJ...935...19L/abstract](https://ui.adsabs.harvard.edu/abs/2024ApJ...973L..55L/abstract))
 
 We detect more than 1300 star clusters in the center of M82 with stellar masses greater than 10,000 Msun. Almost 90% of them are new compared to previous Hubble-based star cluster catalogs. Even though we detect these clusters in the infrared, they still have appreciable dust extinctions (Av ~ 3-24 mag)!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/M82_F140M-F250M-F360M_asinh_inset_HST.png" title="M82 NIRCam short wavelength filters" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/M82_F140M-F250M-F360M_asinh_inset_HST.png" title="Massive star clusters detected in M82 with JWST NIRCam" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
