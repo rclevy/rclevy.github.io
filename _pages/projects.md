@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: Research
 permalink: /projects/
 description: 
 nav: true
@@ -8,6 +8,8 @@ nav_order: 1
 display_categories:
 horizontal: true
 ---
+
+My research focuses on the intersections of extreme star formation, the ISM, feedback, and galaxy evolution. I use observations from ground- and space-based observatories. At STScI, I am part of the [ISM* Group](https://sites.google.com/view/ism-stsci/home).
 
 <!-- pages/projects.md -->
 <div class="projects">
