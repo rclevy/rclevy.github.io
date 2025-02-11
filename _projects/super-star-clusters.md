@@ -43,6 +43,7 @@ We detect massive outflows from forming super star clusters (SSCs) in the centra
 </div>
 
 ## Other work I have been involved with on this topic
+- [Rodriguez et al. 2024](https://ui.adsabs.harvard.edu/abs/2024arXiv241207862J/abstract)
 - [Sun et al. 2024](https://ui.adsabs.harvard.edu/abs/2024ApJ...967..133S/abstract)
 - [Maschmann et al. 2024](https://ui.adsabs.harvard.edu/abs/2024ApJS..273...14M/abstract)
 - [Mills et al. 2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...919..105M/abstract)
