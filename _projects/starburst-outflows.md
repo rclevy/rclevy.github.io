@@ -36,6 +36,7 @@ We use new observations from SOFIA to detect [CII] in the starburst nucleus and 
 </div>
 
 ## Other work I have been involved with on this topic
+- [Villanueva et al. 2025](https://ui.adsabs.harvard.edu/abs/2025arXiv250114893V/abstract)
 - [Fisher et al. 2024](https://ui.adsabs.harvard.edu/abs/2024arXiv240503686F/abstract)
 - [Chastenet et al. 2024](https://ui.adsabs.harvard.edu/abs/2024arXiv240808026C/abstract)
 - [Bolatto et al. 2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...923...83B/abstract)
