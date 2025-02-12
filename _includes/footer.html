@@ -1,13 +1,18 @@
     {% if site.footer_fixed %}
     <footer class="fixed-bottom">
-      <div class="container mt-0">
-        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
+      <div class="container mt-0" align="center">
+        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.   
+        {%- if site.last_updated -%}
+        &nbsp; Last updated: {{ "now" | date: '%B %d, %Y' }}.
+        {%- endif %}
+        {{ site.footer_text }}
+        {%- if site.site_credit -%}
+        <font size="1">Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+        Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</font>   
+        {%- endif %}
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
         {%- endif -%}
-        {%- if site.last_updated -%}
-        Last updated: {{ "now" | date: '%B %d, %Y' }}.
-        {%- endif %}
       </div>
     </footer>
     {%- else -%}
