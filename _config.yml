@@ -10,7 +10,7 @@ suffix_name: Ph.D.
 email: rlevy.astro@gmail.com
 description: 
 footer_text: >
-  <br><font size="1">Any opinions, findings, conclusions, or recommendations expressed in this material are those of the author and do not necessarily reflect the views of the NSF, NASA, STScI, the US Federal Government, or other government agency.</font>
+  <br><font size="1">Any opinions, findings, conclusions, or recommendations expressed in this material are those of the author and do not necessarily reflect the views of the NSF, NASA, STScI, the US Federal Government, or other government agencies.</font>
 site_credit : true #print the jekyll, al-folio, github pages credit
 keywords: # add your own keywords or leave empty
 
