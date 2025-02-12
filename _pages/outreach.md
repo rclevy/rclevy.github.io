@@ -8,7 +8,7 @@ nav_order: 6
 ---
 
 ### Women in Science and Engineering
-Currently, I am involved with the Women in Science and Engineering ([WISE](https://wise.arizona.edu/)) Program at the University of Arizona. I have served as a guest lecturer for the Imagine Your STEM Future ([IYSF](https://wise.arizona.edu/imagine-your-stem-future)) program and am [developing astronomy curriculum](https://drive.google.com/drive/folders/1UUYzn8Jej_imQFitYFOTIEtYxPLFBB2p?usp=drive_link) for that program. I have also given a guest lecture as part of the [Bio/Diversity Project](https://wise.arizona.edu/biodiversity-project) on [Translational Science Communication](https://github.com/rclevy/rclevy.github.io/blob/master/assets/pdf/BioDiversity_GuestLecture_TranslationalSciComm_RLevy_20230405.pdf). Stay tuned for more updates on my involvement with WISE!
+While an NSF Fellow at the University of Arizona, I was involved with the Women in Science and Engineering ([WISE](https://wise.arizona.edu/)) Program. I [developed astronomy curriculum](https://drive.google.com/drive/folders/1UUYzn8Jej_imQFitYFOTIEtYxPLFBB2p?usp=drive_link) for the Imagine Your STEM Future ([IYSF](https://wise.arizona.edu/imagine-your-stem-future)) program and was a guest lecturer. I also gave a guest lecture as part of the [Bio/Diversity Project](https://wise.arizona.edu/biodiversity-project) on [Translational Science Communication](https://github.com/rclevy/rclevy.github.io/blob/master/assets/pdf/BioDiversity_GuestLecture_TranslationalSciComm_RLevy_20230405.pdf).
 
 <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/IYSF_02202023.jpg" title="" class="img-fluid rounded z-depth-1" %}
