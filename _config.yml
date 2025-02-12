@@ -95,7 +95,8 @@ instagram_id: # your instagram id
 facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
-ads_lib: https://scixplorer.org/user/libraries/y09ZmJBWTfCs0q5KMVKSwQ #url to ADS library
+scix_lib: https://scixplorer.org/public-libraries/y09ZmJBWTfCs0q5KMVKSwQ #url to SciXplorer library
+ads_lib: https://ui.adsabs.harvard.edu/public-libraries/y09ZmJBWTfCs0q5KMVKSwQ  #url to ADS library
 cv_url: https://rclevy.github.io/assets/pdf/CV_RLevy_website.pdf #link to CV
 
 contact_note:
