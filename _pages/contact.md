@@ -8,8 +8,8 @@ nav_order: 7
 
 social: true  # includes social icons at the top of the page
 ---
-<b> Rebecca Levy </b><br>
-she/her<br>
+#### <b> Rebecca Levy </b><br>
+she/her/hers<br>
 
 Email:<br>
 rlevy(dot)astro(at)gmail(dot)com<br>
