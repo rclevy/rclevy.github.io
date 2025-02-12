@@ -15,7 +15,7 @@ I am involved in a [Cycle 1 JWST program](https://www.stsci.edu/jwst/phase2-publ
 
 #### [Bolatto, Levy et al. 2024](https://ui.adsabs.harvard.edu/abs/2024ApJ...967...63B/abstract)
 
-We detect the base of the superwind in M82 in PAH emission and reveal a highly filamentary and bubble-like structure. The PAH emission resembles that of the ionized gas, suggesting that the PAHs are embedded in a combination of neutral, molecular, and photoionized gas (see also [Fisher et al. 2024](https://ui.adsabs.harvard.edu/abs/2024arXiv240503686F/abstract)).
+We detect the base of the superwind in M82 in PAH emission and reveal a highly filamentary and bubble-like structure. The PAH emission resembles that of the ionized gas, suggesting that the PAHs are embedded in a combination of neutral, molecular, and photoionized gas (see also [Fisher et al. 2025](https://ui.adsabs.harvard.edu/abs/2024arXiv240503686F/abstract)).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -37,7 +37,7 @@ We use new observations from SOFIA to detect [CII] in the starburst nucleus and 
 
 ## Other work I have been involved with on this topic
 - [Villanueva et al. 2025](https://ui.adsabs.harvard.edu/abs/2025arXiv250114893V/abstract)
-- [Fisher et al. 2024](https://ui.adsabs.harvard.edu/abs/2024arXiv240503686F/abstract)
+- [Fisher et al. 2025](https://ui.adsabs.harvard.edu/abs/2024arXiv240503686F/abstract)
 - [Chastenet et al. 2024](https://ui.adsabs.harvard.edu/abs/2024arXiv240808026C/abstract)
 - [Bolatto et al. 2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...923...83B/abstract)
 - [Krieger et al. 2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...915L...3K/abstract)
