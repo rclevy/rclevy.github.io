@@ -1,9 +1,9 @@
 ---
-layout: cv
-permalink: /cv/
+layout: page
+permalink: assets/cv/CV_RLevy_website.pdf
 title: CV
-description: Please click on the CV link above to access a copy of my current CV.
+description:
 nav: true
 nav_order: 3
-cv_pdf: CV_RLevy_website.pdf
+newtab: true
 ---
