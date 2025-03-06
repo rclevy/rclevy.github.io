@@ -10,6 +10,11 @@
 
 %% Changelog
 %% ---------------------------------------------------------------------------------
+%% 2023-09-23
+%% Added function to bold one author's name [change author name in line 75]
+%% Updated article citation ordering to match ApJ style
+%% Modified by Rebecca Levy, rlevy.astro@gmail.com
+%% ---------------------------------------------------------------------------------
 %% 2009-04-29
 %% Modified BibTeX style to correctly sorting authors within a particular year, when
 %% no month is given or the month is the same
