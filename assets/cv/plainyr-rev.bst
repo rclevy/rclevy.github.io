@@ -142,6 +142,28 @@ FUNCTION {output.nonnull}
   s
 }
 
+FUNCTION {output.nonnull.after.newline}
+{ 's :=
+  output.state mid.sentence =
+    { "\vspace{2pt} \\" * write$ }
+    { output.state after.block =
+        { add.period$ write$
+          newline$
+          "\newblock " write$
+        }
+        { output.state before.all =
+            'write$
+            { add.period$ " " * write$ }
+          if$
+        }
+      if$
+      mid.sentence 'output.state :=
+    }
+  if$
+  s
+}
+
+
 FUNCTION {output}
 { duplicate$ empty$
     'pop$
@@ -154,6 +176,14 @@ FUNCTION {output.check}
   duplicate$ empty$
     { pop$ "empty " t * " in " * cite$ * warning$ }
     'output.nonnull
+  if$
+}
+
+FUNCTION {output.check.after.newline}
+{ 't :=
+  duplicate$ empty$
+    { pop$ "empty " t * " in " * cite$ * warning$ }
+    'output.nonnull.after.newline
   if$
 }
 
@@ -250,7 +280,7 @@ FUNCTION {field.or.null}
 FUNCTION {emphasize}
 { duplicate$ empty$
     { pop$ "" }
-    { "{\em " swap$ * "}" * }
+    { "\textit{" swap$ * "}" * }
   if$
 }
 
@@ -754,13 +784,13 @@ FUNCTION {format.incoll.inproc.crossref}
 
 FUNCTION {article}
 { output.bibitem
-  format.authors "authors" output.check
+  format.title "title" output.check
+  format.authors "authors" output.check.after.newline
   format.date "year" output.check
   journal "journal" output.check
   format.vol.num.pages output
   format.pages.output
   format.journal.pages
-  format.title "title" output.check
   format.pid output
   fin.entry
 }
@@ -1231,6 +1261,17 @@ FUNCTION {sort.format.month}
 }
  
 FUNCTION {sort.format.title}
+{ 't :=
+  "A " #2
+    "An " #3
+      "The " #4 t chop.word
+    chop.word
+  chop.word
+  sortify
+  #1 global.max$ substring$
+}
+
+FUNCTION {sort.format.pages}
 { 't :=
   "A " #2
     "An " #3
