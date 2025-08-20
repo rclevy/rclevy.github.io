@@ -671,7 +671,7 @@ FUNCTION {format.in.ed.booktitle}
     { "" }
     { editor empty$
         { "In " booktitle emphasize * }
-        { "In " format.editors * ", " * booktitle emphasize * }
+        {  ", " * "In " booktitle emphasize * " (Ed. " * format.editors * ")" }
       if$
     }
   if$
@@ -795,6 +795,26 @@ FUNCTION {article}
   fin.entry
 }
 
+FUNCTION {incollection}
+{ output.bibitem
+  format.title "title" output.check
+  format.authors "author" output.check.after.newline
+  format.date "year" output.check
+  crossref missing$
+    { format.in.ed.booktitle "booktitle" output.check
+      format.vol.num.pages output
+      format.pages output
+    }
+    { format.incoll.inproc.crossref output.nonnull
+      format.chapter.pages output
+    }
+  if$
+  new.block
+  note output
+  fin.entry
+}
+
+
 FUNCTION {book}
 { output.bibitem
   author empty$
@@ -875,31 +895,6 @@ FUNCTION {inbook}
   fin.entry
 }
 
-FUNCTION {incollection}
-{ output.bibitem
-  format.authors "author" output.check
-  new.block
-  format.title "title" output.check
-  new.block
-  crossref missing$
-    { format.in.ed.booktitle "booktitle" output.check
-      format.bvolume output
-      format.number.series output
-      format.chapter.pages output
-      new.sentence
-      publisher "publisher" output.check
-      address output
-      format.edition output
-      format.date "year" output.check
-    }
-    { format.incoll.inproc.crossref output.nonnull
-      format.chapter.pages output
-    }
-  if$
-  new.block
-  note output
-  fin.entry
-}
 
 FUNCTION {inproceedings}
 { output.bibitem

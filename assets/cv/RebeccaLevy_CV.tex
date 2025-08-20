@@ -13,7 +13,6 @@
 \usepackage[sectionbib,numbers]{natbib}
 \usepackage{csquotes}
 \usepackage{bm}
-%\usepackage[T1]{fontenc}
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -37,14 +36,14 @@
 \AtBeginDocument{%%% natbib redefines the environment there
 \renewenvironment{thebibliography}[1]
  {\bibsection\parindent\z@\bibpreamble\bibfont
-  \settowidth{\dimen0}{#1.}%
-  \setlength{\dimen2}{\dimen0}%
+  \settowidth{\dimen0}{#1.}
+  \setlength{\dimen2}{\dimen0}
   \addtolength{\dimen2}{\labelsep}
   \begin{etaremune}[labelwidth=\dimen0,leftmargin=\dimen2,itemsep=-2.5pt]
   \ifNAT@openbib
-    \renewcommand\newblock{\par}%
+    \renewcommand\newblock{\par}
   \else
-    \renewcommand\newblock{\hskip.11em \@plus .33em \@minus .07em}%
+    \renewcommand\newblock{\hskip.11em \@plus .33em \@minus .07em}
   \fi
   \sloppy
   \clubpenalty4000
@@ -53,7 +52,7 @@
   \let\NAT@bibitem@first@sw\@firstoftwo
   \let\citeN\cite\let\shortcite\cite\let\citeasnoun\cite}
  {\bibitem@fin\bibpostamble
-  \def\@noitemerr{\PackageWarning{natbib}{Empty `thebibliography' environment}}%
+  \def\@noitemerr{\PackageWarning{natbib}{Empty `thebibliography' environment}}
   \end{etaremune}
   \bibcleanup}
 }%%% end of \AtBeginDocument
@@ -64,43 +63,59 @@
 
 
 \makeatletter
-  \def\vhrulefill#1{\leavevmode\leaders\hrule\@height#1\hfill \kern\z@}
+\def\vhrulefill#1{\leavevmode\leaders\hrule \@height #1\hfill \kern\z@}
 \makeatother
+
+
 
 \usepackage{fancyhdr}
 
-\newcommand{\totalcitations}{{\bf Total: 49 papers --- 1496 citations --- h-index = 22}}
-\newcommand{\firstauthorcitations}{{First-authored \& supervised:} 8 papers --- 247 citations}
+\newcommand{\totalcitations}{{\bf Total: 49 papers --- 1461 citations --- h-index = 21}}
+\newcommand{\firstauthorcitations}{{First-authored \& supervised:} 8 papers --- 231 citations}
 \newcommand{\adspublink}{\href{https://ui.adsabs.harvard.edu/public-libraries/y09ZmJBWTfCs0q5KMVKSwQ}{ADS}}
 \newcommand{\scixpublink}{\href{https://scixplorer.org/public-libraries/y09ZmJBWTfCs0q5KMVKSwQ}{SciX}}
 \newcommand{\orcidlink}{\href{https://orcid.org/my-orcid?orcid=0000-0003-2508-2586}{ORCID}}
+
+
+\newcommand{\sectionname}[1]{\section*{\Large #1 \vhrulefill{1.0pt}}}
+\newcommand{\subsectionname}[1]{{\large\bf #1 \vhrulefill{0.5pt}}}
 
 \begin{document} 
  
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
-%\cfoot{\footnotesize {\vhrulefill{0.2pt}~\thepage\ of \pageref{LastPage}~\vhrulefill{0.2pt}}}
 \cfoot{\footnotesize {\thepage\ of \pageref{LastPage}}}
 
 
- 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% NAME and POSITION %%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{center}
 \section*{\huge Rebecca C. Levy}
-{\large\bf STScI Postdoctoral Fellow}\\
+{\Large\bf STScI Postdoctoral Fellow}\\
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% CONTACT INFO %%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{3pt}
 \begin{tabular}{L{0.45\textwidth}R{0.5\textwidth}}
 &\\
 Space Telescope Science Institute & rlevy@stsci.edu\\
 3700 San Martin Dr. & rlevy.astro@gmail.com\\
 Baltimore, MD 21218 & https://rclevy.github.io\\
-% & Pronouns: she/her/hers \\ %Citizenship: USA \\
 \end{tabular}
 \end{center}
-        
 
-\section*{\large Research Interests \vhrulefill{1.0pt}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%% RESEARCH INTERESTS %%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        
+\vspace{-0pt}
+\sectionname{Research Interests}
 \vspace{-6pt}
 
 I investigate
@@ -116,30 +131,40 @@ I investigate
 using multiwavelength photometric and spectroscopic data from ground- and space-based observatories\\
 {\small (e.g., radio; (sub-)millimeter interferometric; near-, mid-, far-infrared; optical IFU)}
 
-\section*{\large Experience \vhrulefill{1.0pt}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% EXPERIENCE %%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{-0pt}
+\sectionname{Experience}
 \vspace{-6pt}
 
 \begin{longtable}{p{0.15\textwidth}p{0.8\textwidth}}
 Sept 2024 -- & {\bf STScI Postdoctoral Fellow}\\
 present  & Space Telescope Science Institute, Baltimore, MD, USA\\
-%&  \small{ Baltimore, MD, USA}\smallskip \\
-& \small{50\% independent research --- 50\% functional work (JWST Science Policies Group)}\medskip\\
+& \small{50\% independent research / 50\% functional work (JWST Science Policies Group)}\medskip\\
 
 Oct 2021 -- & {\bf NSF Astronomy \& Astrophysics Postdoctoral Fellow}\\
 Sept 2024  & University of Arizona, Dept. of Astronomy/Steward Observatory, Tucson, AZ, USA\\
-& \small{ 90\% independent research --- 10\% outreach (U. Arizona Women in Science and Engineering)}\medskip\\
+& \small{ 90\% independent research / 10\% outreach (U. Arizona Women in Science and Engineering)}\\%\medskip\\
  
-  Aug 2015 --  & {\bf Graduate Research Assistant}\\
- Sept 2021 &  University of Maryland, Dept. of Astronomy, College Park, MD, USA\medskip\\
+%Aug 2015 --  & {\bf Graduate Research Assistant}\\
+%Sept 2021 &  University of Maryland, Dept. of Astronomy, College Park, MD, USA\medskip\\
  
- Aug 2019 --  & {\bf Graduate Teaching/Lab Assistant}\\
-  May 2020  & University of Maryland, Dept. of Astronomy, College Park, MD, USA \\
+%Aug 2019 --  & {\bf Graduate Teaching/Lab Assistant}\\
+%May 2020  & University of Maryland, Dept. of Astronomy, College Park, MD, USA \\
  
  
 \end{longtable}
 
- 
-\section*{\large Education \vhrulefill{1.0pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% EDUCATION %%%%%%%%%% %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\vspace{-12pt}
+\sectionname{Education}
 \vspace{-6pt}
 
 \begin{longtable}{p{0.15\textwidth} p{0.9\textwidth}}
@@ -153,64 +178,75 @@ Dec 2017 & {\bf M.S. in Astronomy} \\
 %& \textit{``The EDGE-CALIFA Survey: Molecular and Ionized Gas Kinematics"} \\
 %& \small{Advisor: Prof. Alberto Bolatto} \medskip\\
 
-May 2015 & {\bf B.S. in Astronomy, B.S. in Physics} {\small --- Cum Laude with Honors} \\
+May 2015 & {\bf B.S. in Astronomy, B.S. in Physics} \\
 & University of Arizona, Tucson, AZ, USA\\
+&  {\small Cum Laude with Honors}\\
 %& Minor in French \\
 
 \end{longtable}
 
-%\clearpage
-\section*{\large Publication Summary \vhrulefill{1.0pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%% PUBLICATION SUMMARY %%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\vspace{-12pt}
+\sectionname{Publication Summary}
+\vspace{-6pt}
+
+\totalcitations \\ \firstauthorcitations \medskip
 \vspace{-12pt}
 
-\totalcitations \\ \firstauthorcitations \medskip %\\ \adspublink
-\vspace{-12pt}
-
-{\small A full publication list can be found at the end}
+{\small A full publication list can be found at the end.}
 
 \clearpage
-{\bf First-Authored \& Supervised Publications \vhrulefill{0.5pt}}
-%\vspace{-6pt}
+\subsectionname{First-Authored \& Supervised Publications}
 
 \begin{etaremune}[itemsep=-18pt]
 
+%\item \textit{``M81 y sus Primas con PRIMA: Spectroscopic Mapping of the M81 Group with FIRESS"}\\
+%{\bf Levy, R.~C.}, et al. 2025, PRIMA General Observer Science Book, Vol. 2, in press. \smallskip\\ 
+
 \item \textit{``JWST Observations of Starbursts: Massive Star Clusters in the Central Starburst of M\,82"}\\
-{\bf Levy, R.~C.}, et al. 2024, \href{https://ui.adsabs.harvard.edu/abs/2024arXiv240804135L/abstract}{ApJL, 973, 55} \smallskip\\ 
+{\bf Levy, R.~C.}, et al. 2024, \href{https://ui.adsabs.harvard.edu/abs/2024arXiv240804135L/abstract}{ApJL, 973, 55}. \smallskip\\ 
 
 \item \textit{``Milky Way and Nearby Galaxies Science with the SALTUS Space Observatory"}\\
-{\bf Levy, R.~C.}, et al. 2024, \href{https://ui.adsabs.harvard.edu/abs/2024arXiv240416984L/abstract}{JATIS, 10, 4, 042304}\\
-{\small Figure from this paper is the cover image for this \href{https://www.spiedigitallibrary.org/journals/Journal-of-Astronomical-Telescopes-Instruments-and-Systems/volume-10/issue-04}{JATIS issue}.}\smallskip\\
+{\bf Levy, R.~C.}, et al. 2024, \href{https://ui.adsabs.harvard.edu/abs/2024arXiv240416984L/abstract}{JATIS, 10, 4, 042304}.\smallskip\\
+%{\small (A figure from this paper is the cover image for this \href{https://www.spiedigitallibrary.org/journals/Journal-of-Astronomical-Telescopes-Instruments-and-Systems/volume-10/issue-04}{JATIS issue}.)}\smallskip\\
 
 \item \textit{``[CII] Spectral Mapping of the Galactic Wind and Starbursting Disk of M\,82 with SOFIA"}\\
-{\bf Levy, R.~C.}, et al. 2023, \href{https://ui.adsabs.harvard.edu/abs/2023ApJ...958..109L/abstract}{ApJ, 958, 109} \smallskip\\ 
+{\bf Levy, R.~C.}, et al. 2023, \href{https://ui.adsabs.harvard.edu/abs/2023ApJ...958..109L/abstract}{ApJ, 958, 109} .\smallskip\\ 
 
 \item \textit{``The Morpho-Kinematic Architecture of Super Star Clusters in the Center of NGC\,253"}\\
-{\bf Levy, R. C.}, et al. 2022, \href{https://ui.adsabs.harvard.edu/abs/2022ApJ...935...19L/abstract}{ApJ, 935, 19} \smallskip\\
+{\bf Levy, R. C.}, et al. 2022, \href{https://ui.adsabs.harvard.edu/abs/2022ApJ...935...19L/abstract}{ApJ, 935, 19}. \smallskip\\
 
 \item \textit{``Cuspy Dark Matter Density Profiles in Massive Dwarf Galaxies"}\\
-Cooke, L. H., {\bf Levy, R. C.}, et al. 2022, \href{https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.1012C/abstract}{MNRAS, 512, 1012 }\smallskip\\
+Cooke, L. H., {\bf Levy, R. C.}, et al. 2022, \href{https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.1012C/abstract}{MNRAS, 512, 1012}.\smallskip\\
 
 \item \textit{``Outflows from Super Star Clusters in the Central Starburst of NGC\,253"}\\
-{\bf Levy, R. C.}, et al. 2021, \href{https://ui.adsabs.harvard.edu/abs/2021ApJ...912....4L/abstract}{ApJ, 912, 4}\smallskip\\
+{\bf Levy, R. C.}, et al. 2021, \href{https://ui.adsabs.harvard.edu/abs/2021ApJ...912....4L/abstract}{ApJ, 912, 4}.\smallskip\\
 %Featured in NRAO eNews \href{https://science.nrao.edu/enews/14.5/index.shtml#outflows}{Vol. 14 Issue 5}\smallskip\\ 
 
 \item \textit{``The EDGE-CALIFA Survey: Evidence for Pervasive Extraplanar Diffuse Ionized Gas in Nearby Edge-On Galaxies"}\\
-{\bf Levy, R. C.}, et al. 2019, \href{https://ui.adsabs.harvard.edu/abs/2019arXiv190505196L/abstract}{ApJ, 882, 84}\smallskip\\
+{\bf Levy, R. C.}, et al. 2019, \href{https://ui.adsabs.harvard.edu/abs/2019arXiv190505196L/abstract}{ApJ, 882, 84}.\smallskip\\
 
 \item \textit{``The EDGE-CALIFA Survey: Molecular and Ionized Gas Kinematics in Nearby Galaxies"}\\
- {\bf Levy, R. C.}, et al. 2018, \href{https://ui.adsabs.harvard.edu/abs/2018ApJ...860...92L/abstract}{ApJ, 860, 92}\smallskip
+ {\bf Levy, R. C.}, et al. 2018, \href{https://ui.adsabs.harvard.edu/abs/2018ApJ...860...92L/abstract}{ApJ, 860, 92}.\smallskip
 
 \end{etaremune}
 
 %% add running head from second page on
-%\chead{\footnotesize {\vhrulefill{0.2pt}~Rebecca C. Levy --- Curriculum Vitae~\vhrulefill{0.2pt}}}
-%\chead{\small {Rebecca C. Levy --- Curriculum Vitae}}
 \renewcommand{\headrulewidth}{0.5pt}
 \lhead{Rebecca C. Levy}
 \rhead{Curriculum Vitae}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%% HONORS and AWARDS %%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section*{\large Honors \& Awards \vhrulefill{1.0pt}}
+\vspace{-0pt}
+\sectionname{Honors \& Awards}
 \vspace{-6pt}
 
 \begin{longtable}{p{0.15\textwidth}p{0.6\textwidth}p{0.2\textwidth}}
@@ -239,20 +275,26 @@ Cooke, L. H., {\bf Levy, R. C.}, et al. 2022, \href{https://ui.adsabs.harvard.ed
 
 \end{longtable}
 
-\section*{\large Grants Awarded \vhrulefill{1.0pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%% GRANTS %%%%%%%%%% %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{-12pt}
+\sectionname{Grants Awarded}
 \vspace{-6pt}
 
 \begin{longtable}{p{0.15\textwidth}p{0.12\textwidth}p{0.15\textwidth} p{0.48\textwidth}}
-2025 & \small{Collaborator} & NASA --- &  \textit{``A Next-Generation Crowded-Field Stellar}\\
-&  & ROMAN24 & \textit{Photometry Tool for Roman"}\\
-&  & & \footnotesize{This large Wide Field Science (WFS) program funds the development of tools to support the progress and exploitation of scientific and technical data from Roman.}\smallskip\\
+%2025 & \small{Collaborator} & NASA --- &  \textit{``A Next-Generation Crowded-Field Stellar}\\
+%&  & ROMAN24 & \textit{Photometry Tool for Roman"}\smallskip\\
+%&  & & \footnotesize{This large Wide Field Science (WFS) program funds the development of tools to support the progress and exploitation of scientific and technical data from Roman.}\smallskip\\
 
 2022 & \$44,473 & NSF & \textit{``21st Annual Symposium of the NSF Astronomy and Astrophysics Postdoctoral Fellows"}\smallskip\\
 
 2021 & \$310,000 & NSF AAPF & \textit{``A Multiscale View of the Effects of Stellar Feedback in the Local Universe"}\smallskip\\
 
-2019 & \$35,000 & NRAO & ALMA Student Observing Support\\
-&&&\small{ Proposal 2019.1.00473.S (PI: R. Levy)}\smallskip\\
+2019 & \$35,000 & NRAO & ALMA Student Observing Support\smallskip\\
+%&&&\small{ Proposal 2019.1.00473.S (PI: R. Levy)}\smallskip\\
 
 2019 & \$90,000 & SOFIA/USRA/ NASA & \textit{``The GREAT Cigar: Mapping [CII] in the Disk and Outflow of M82"}\smallskip\\
 
@@ -264,18 +306,28 @@ Cooke, L. H., {\bf Levy, R. C.}, et al. 2022, \href{https://ui.adsabs.harvard.ed
 \end{longtable}
 
 
-\section*{\large Recent Scientific Presentations \vhrulefill{1.0pt}}
-\vspace{-6pt}
-%{\small Presentations without a listed location were given virtually due to the COVID-19 pandemic.\smallskip}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% PRESENTATIONS %%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\textbf{Invited Reviews and  Colloquia \vhrulefill{0.5pt}}
+\vspace{-12pt}
+\sectionname{Scientific Presentations}
 \vspace{-6pt}
+
+%%%%%%%%%%%%%%%%%%%%%
+%%% COLLOQUIA and REVIEWS %%%
+%%%%%%%%%%%%%%%%%%%%%
+
+
+\subsectionname{Invited Reviews and  Colloquia}\vspace{-6pt}
 
 \begin{longtable}{p{0.15\textwidth} p{0.6\textwidth}p{0.2\textwidth}}
 
+%\mbox{Fall 2025 {\small \em (sched.)}} & U. Connecticut Astronomy Seminar & {\small Mansfield, CT}\\
+
 Feb 2025 & Texas A\&M U. Astronomy Colloquium & {\small College Station, TX}\\
 
-Oct 2023 & Instituto de Astrof\'isica de Andaluc\'ia Colloquium & {\small (Virtual, \href{https://youtu.be/0gQPiKdQCm4}{Recorded})}\\
+Oct 2023 & Instituto de Astrof\'isica de Andaluc\'ia Colloquium {\small (\href{https://youtu.be/0gQPiKdQCm4}{Recorded})}& {\small (Virtual)}\\
 
 Oct 2023 & Radboud U. Astronomy Colloquium & {\small (Virtual)}\\
 
@@ -287,23 +339,31 @@ Apr 2023 & Michigan State U. Astronomy Seminar & {\small (Virtual)}\\
 
 Oct 2022 & U. Kansas Physics and Astronomy Department Colloquium & {\small Lawrence, KS} \\
 
- Oct 2019 & The Warm Ionized Medium (WIM) Workshop ---  {\bf Review Talk} & {\small Green Bank, WV}\\
+ Oct 2019 & The Warm Ionized Medium Workshop ---  {\bf Review Talk} & {\small Green Bank, WV}\\
 % & {\bf Review Talk:} \textit{``The WIM in Other Galaxies"} \\
 
 \end{longtable}
 \vspace{-12pt}
 
+%%%%%%%%%%%%%%%%%%%%%
+%%%%%% INVITED TALKS %%%%%%
+%%%%%%%%%%%%%%%%%%%%%
 
-\textbf{Invited Talks \vhrulefill{0.5pt}}
-\vspace{-6pt}
+\subsectionname{Invited Talks}\vspace{-6pt}
 
 
 \begin{longtable}{p{0.15\textwidth} p{0.6\textwidth}p{0.2\textwidth}}
 
-Oct 2024 & CfA Seminar & {\small Cambridge, MA}\\
+%\mbox{Oct 2025 {\small \em (sched.)}}  & Lorentz Center Workshop: Galactic Centers as Tracers of Galaxy Evolution& {\small Leiden, Netherlands} \\
 
-Apr 2024 & UW-Madison Monday Science Seminar & {\small (Virtual)}\\
+%\mbox{Sept 2025 {\small \em (sched.)}}  & STScI Milky Way Halo Research Group Meeting & {\small Baltimore, MD} \\
 
+Aug 2025 & Ascona Meeting on Cosmic ISM and Stellar Populations & {\small Ascona, Switzerland}\\
+
+Oct 2024 & Center for Astrophysics (CfA) Seminar & {\small Cambridge, MA}\\
+
+Apr 2024 & U. Wisconsin, Madison Monday Science Seminar & {\small (Virtual)}\\
+ 
 Dec 2023 & ALMA at Ten Years: Past, Present and Future & {\small Puerto Varas, Chile}\\
 
 July 2021 & The Grande Cascade & {\small (Virtual)}\\
@@ -314,25 +374,28 @@ July 2021 & The Grande Cascade & {\small (Virtual)}\\
  Feb 2021 & Princeton Star Formation/ISM Rendezvous &{\small (Virtual)} \\
 %& \textit{``Probing Feedback from Super Star Clusters in the Central Starburst of NGC~253 with ALMA"} \medskip \\ 
 
- Nov 2020 & Ringberg Workshop on ``How does small-scale physics drive galaxy evolution?" Virtual Seminar  & {\small (Virtual)}\\
+ Nov 2020 & Ringberg Workshop Virtual Seminar: {\em ``How does small-scale physics drive galaxy evolution?"}  & {\small (Virtual)}\\
 %& \textit{``Probing Feedback from Super Star Clusters in the Central Starburst of NGC~253 with ALMA"} \medskip \\ 
 
- Oct 2020 & CCAPP Seminar & {\small (Virtual)}\\
+ Oct 2020 & Center for Cosmology \& AstroParticle Physics Seminar & {\small (Virtual)}\\
 %& \textit{``Probing Feedback from Super Star Clusters in the Central Starburst of NGC~253 with ALMA"} \medskip\\ 
 
 \end{longtable}
 \vspace{-12pt}
 
-\textbf{Contributed Talks} {\small (past 3 years)} \textbf{\vhrulefill{0.5pt}}
-\vspace{-6pt}
+%%%%%%%%%%%%%%%%%%%%%
+%%%% CONTRIBUTED TALKS %%%%
+%%%%%%%%%%%%%%%%%%%%%
+
+\subsectionname{Contributed Talks {\small (past 3 years)}}\vspace{-6pt}
 
 
 \begin{longtable}{p{0.15\textwidth} p{0.6\textwidth}p{0.2\textwidth}}
 
 May 2025 & Inter+Stellar: Harnessing the Intersection Between Stars and the Interstellar Medium & {\small Baltimore, MD}\\
 
-Nov 2024 & Follow the Monarchs: A Journey to Explore the Cosmos at  & {\small Morelia, Mexico,}\\
-& (Sub)milliarcsecond Scales with the ngVLA & {\small(\href{https://youtu.be/CHdCz9VyqIM?si=kyrCyJ9LXm9UtWOj&t=3514}{Recorded})}\\
+Nov 2024 & Follow the Monarchs: A Journey to Explore the Cosmos at  & {\small Morelia, Mexico}\\
+& (Sub)milliarcsecond Scales with the ngVLA {\small(\href{https://youtu.be/CHdCz9VyqIM?si=kyrCyJ9LXm9UtWOj&t=3514}{Recorded})} & \\
 
 May 2024 & STScI Low Density Universe Meeting & {\small Baltimore, MD}\\
 
@@ -348,9 +411,9 @@ Sept 2022 & MPIA Galaxy Coffee Seminar & {\small Heidelberg, Germany}\\
 
 Sept 2022 & Puzzles of the Galactic Centre & {\small Heidelberg, Germany}\\
 
-Aug 2022 & UVa/ NRAO Astronomy Lunch Talk Series & {\small (Virtual)}\\
+%Aug 2022 & U. Virginia/ NRAO Astronomy Lunch Talk Series & {\small (Virtual)}\\
 
-July 2022 & A Holistic View of Stellar Feedback and Galaxy Evolution & {\small Ascona, Switzerland}\\
+%July 2022 & A Holistic View of Stellar Feedback and Galaxy Evolution & {\small Ascona, Switzerland}\\
 
 %June  2022 &The 240$^{\rm th}$ Meeting of the American Astronomical Society & {\small Pasadena, CA}\\
 
@@ -367,76 +430,61 @@ July 2022 & A Holistic View of Stellar Feedback and Galaxy Evolution & {\small A
 %Oct 2021 & Caltech Astronomy Tea Talk & {\small (Virtual)} \\
 
 %Jan  2021 &The 237$^{\rm th}$ Meeting of the American Astronomical Society & {\small (Virtual)}\\
-% & {\small Dissertation Talk} & \\
-%& \textit{``Investigating Star Formation Feedback through Gas Kinematics in Nearby Galaxies"}\medskip\\ 
 
-% Nov 2020 & UVa/ NRAO Astronomy Lunch Talk Series & {\small (Virtual)}\\
-%& \textit{``Probing Feedback from Super Star Clusters in the Central Starburst of NGC~253 with ALMA"} \medskip\\ 
+%Nov 2020 & U. Virginia/ NRAO Astronomy Lunch Talk Series & {\small (Virtual)}\\
 
-% Nov 2020 & Steward/NOAO Galaxy Group Seminar & {\small (Virtual)}\\
-%& \textit{``Probing Feedback from Super Star Clusters in the Central Starburst of NGC~253 with ALMA"} \medskip \\ 
+%Nov 2020 & Steward Observatory/ NOAO Galaxy Group Seminar & {\small (Virtual)}\\
 
-% Nov 2020 & UT Austin ISM Seminar &{\small (Virtual)} \\
-%& \textit{``Probing Feedback from Super Star Clusters in the Central Starburst of NGC~253 with ALMA"} \medskip  \\ 
+%Nov 2020 & U. Texas at Austin ISM Seminar &{\small (Virtual)} \\
 
-% Oct 2020 & UCLA Astronomy \& Physics Lunch Talk Series &{\small (Virtual)} \\
-%& \textit{``Probing Feedback from Super Star Clusters in the Central Starburst of NGC~253 with ALMA"} \medskip  \\ 
+%Oct 2020 & UCLA Astronomy \& Physics Lunch Talk Series &{\small (Virtual)} \\
 
-% Oct 2020 & STScI Galaxy Journal Club & {\small (Virtual)}\\
-%& \textit{``Probing Feedback from Super Star Clusters in the Central Starburst of NGC~253 with ALMA"} \medskip \\ 
+%Oct 2020 & STScI Galaxy Journal Club & {\small (Virtual)}\\
 
-% Sept 2020 & SMA Seminar & {\small (Virtual)}\\
-%&  \textit{``Probing Feedback from Super Star Clusters in the Central Starburst of NGC~253 with ALMA"}  \medskip \\ 
+%Sept 2020 & Submillimeter Array (SMA) Seminar & {\small (Virtual)}\\
 
 % Oct 2019 & ALMA 2019:  Science Results and Cross-Facility Synergies & {\small Cagliari, Italy}\\
-%&  \textit{``Probing Feedback from Super Star Clusters in the Central Starburst of NGC~253"} \medskip  \\
 
 % June 2019 & Radio/Millimeter Astrophysical Frontiers in the Next Decade & {\small Charlottesville, VA}\\
-%&  \textit{``Probing Feedback from Super Star Clusters in the Central Starburst of NGC~253"}  \medskip \\
 
 %Nov 2018 &  Goddard Space Flight Center ISM Group Lunch Talk & {\small Greenbelt, MD}\\
-%& \textit{``Connecting Stellar Feedback and Gas Kinematics in Nearby Star-Forming Galaxies"}\medskip \\
 
- %Sept 2018 & National Science Foundation Lunch Talk & {\small Alexandria, VA}\\
-%& \textit{``Connecting Star Formation Feedback and Gas Kinematics on Different Scales"}\medskip\\
+%Sept 2018 & National Science Foundation Lunch Talk & {\small Alexandria, VA}\\
 
 % June 2018 & Astrophysical Frontiers in the Next Decade and Beyond: Planets, Galaxies, Black Holes, and the Transient Universe & {\small Portland, OR}\\
-%&  \textit{``Connecting Gas Kinematics to Extraplanar Diffuse Ionized Gas in Nearby Galaxies"} \medskip\\
 
 % Jan 2018 & The 231$^{\rm st}$ Meeting of the American Astronomical Society & {\small Washington, D.C.}\\
-%&  \textit{``The EDGE-CALIFA Survey: Molecular and Ionized Gas Kinematics in Nearby Galaxies"}\medskip \\
 
  %2014 & Steward Observatory Internal Symposium &{\small Tucson, AZ}\\
-%& \textit{``Tracing the Dense Molecular Gas in the Large Magellanic Cloud"} \medskip\\
 
 % 2013 & The Undergraduate Research Opportunities Consortium & {\small Tucson, AZ}\\
-%& \textit{``Testing the Relationship Between Polarization Angle and Wavelength in Sagittarius A*"} \\
 
 \end{longtable}
 \vspace{-12pt}
 
-%\textbf{Posters \vhrulefill{0.5pt}}
+%\subsectionname{Posters}
+%\vspace{-6pt}
 %\begin{longtable}{p{0.15\textwidth} p{0.6\textwidth}p{0.2\textwidth}}
 %
 %Oct 2017 & The Role of Gas in Galaxy Dynamics & {\small Valletta, Malta}\\
-%%& \textit{``The EDGE-CALIFA Survey: Molecular and Ionized Gas Kinematics in Nearby Galaxies"}\medskip\\
 %
 %Sept 2016 & Half a Decade of ALMA: Cosmic Dawns Transformed & {\small Palm Springs, CA}\\
-%%&  \textit{``The EDGE CO Survey of Nearby Galaxies"}\medskip \\
 %
 %Apr 2016 & Molecular Gas in Galactic Environments & {\small Charlottesville, VA}\\
-%%&\textit{``Velocity Field Structure in the EDGE Galaxies"}\medskip\\
 %
 % %2015 & The 225$^{\rm th}$ Meeting of the American Astronomical Society &{\small Seattle, WA}\\
-%%& \textit{``Tracing the Dense Molecular Gas in the Large Magellanic Cloud"}\medskip\\
 %
 % %%2013 & The Undergraduate Research Opportunities Consortium & {\small Tucson, AZ}\\
-%%&  \textit{``Testing the Relationship Between Polarization Angle and Wavelength in Sagittarius A*"}
 %\end{longtable}
 
 
-\textbf{Press, Media, \& Other Coverage \vhrulefill{0.5pt}}
-\vspace{-6pt}
+
+%%%%%%%%%%%%%%%%%%%%%
+%%%%% PRESS COVERAGE %%%%%
+%%%%%%%%%%%%%%%%%%%%%
+
+
+\subsectionname{Press, Media, \& Other Coverage}\vspace{-6pt}
 
 
 \begin{longtable}{p{0.15\textwidth} p{0.8\textwidth}}
@@ -450,117 +498,154 @@ Apr 2024 & Quoted in \href{https://science.nasa.gov/missions/webb/nasas-webb-pro
 
 Aug 2022 & Results from Levy et al. 2022, \href{https://ui.adsabs.harvard.edu/abs/2022ApJ...935...19L/abstract}{ApJ} cited in the \href{https://en.wikipedia.org/wiki/Sculptor_Galaxy#cite_ref-15}{Wikipedia page for NGC\,253}.\smallskip\\
 
-May 2021 & Results from Levy et al. 2021, \href{https://ui.adsabs.harvard.edu/abs/2021ApJ...912....4L/abstract}{ApJ} featured in the NRAO eNews \href{https://science.nrao.edu/enews/14.5/index.shtml#outflows}{Vol. 14, Issue 5}. \smallskip\\
+May 2021 & Results from Levy et al. 2021, \href{https://ui.adsabs.harvard.edu/abs/2021ApJ...912....4L/abstract}{ApJ} featured in the NRAO eNews \href{https://science.nrao.edu/enews/14.5/index.shtml#outflows}{Vol. 14, Issue 5}.\\
 
-Apr 2021 & Featured in the U. Maryland College of Computer, Mathematical, \& Natural Sciences \mbox{\href{https://cmns.umd.edu/news-events/news/astronomy-phd-student-awarded-prestigious-nsf-postdoctoral-fellowship}{News}: \textit{``Astronomy Ph.D. Student Awarded Prestigious NSF Postdoctoral Fellowship."}}\smallskip\\
+%Apr 2021 & Featured in the U. Maryland College of Computer, Mathematical, \& Natural Sciences \mbox{\href{https://cmns.umd.edu/news-events/news/astronomy-phd-student-awarded-prestigious-nsf-postdoctoral-fellowship}{News}: \textit{``Astronomy Ph.D. Student Awarded Prestigious NSF Postdoctoral Fellowship."}}\smallskip\\
 
-Jan 2016, & Main character in two of NOAO's \textit{``Tales of the Modern Astronomer"} comics,\\
-Jan 2015 & \href{https://noirlab.edu/public/media/archives/education/pdf/edu003.pdf#page=1}{\textit{``Antares Rising"}} and \href{https://noirlab.edu/public/media/archives/education/pdf/edu003.pdf#page=5}{\textit{``First Bytes: Dawn of the Data"}}, which were displayed at the 2015 and 2016 winter AAS meetings and circulated in NOAO Newsletters.\\
-& {\footnotesize (Note: NOAO is now NOIRLab.)}\\ 
+%Jan 2016, & Main~character~in~two~of~NOAO's~\textit{``Tales~of~the~Modern~Astronomer"}~comics,~\href{https://noirlab.edu/public/media/archives/education/pdf/edu003.pdf#page=1}{\textit{``Antares}}\\
+%Jan 2015 & \href{https://noirlab.edu/public/media/archives/education/pdf/edu003.pdf#page=1}{\textit{Rising"}} and \href{https://noirlab.edu/public/media/archives/education/pdf/edu003.pdf#page=5}{\textit{``First Bytes: Dawn of the Data,"}} which were displayed at winter AAS meetings and circulated in NOAO Newsletters. {\footnotesize (Note: NOAO is now NOIRLab.)}\\ 
 
 \end{longtable}
 
-\section*{\large Students Mentored \vhrulefill{1.0pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%% STUDENTS MENTORED %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{-12pt}
+\sectionname{Students Mentored}
 \vspace{-6pt}
 
-\begin{longtable}{p{0.15\textwidth}p{0.13\textwidth}p{0.67\textwidth}}
+\begin{longtable}{p{0.21\textwidth}p{0.13\textwidth}p{0.61\textwidth}}
 
-Melnick Nebart & June 2025 -- & STScI Space Astronomy Summer Program (SASP) \\
-& & {\small Undergrad at Columbia U.}\smallskip\\
+Melnick Nebart & Summer 2025 & STScI Space Astronomy Summer Program (SASP) \\
+&& {\bf Publication:} Nebart \& Levy, 2025 in prep.\\
+& & {\small Undergrad at Columbia U.}\medskip\\
 
-Keaton  & Oct 2022 -- & Co-mentor\\ 
-Donaghue && {\bf Publication:} Donaghue, ... Levy, et al. in prep.\\ 
- & & {\small Undergrad at U. Kansas  $\rightarrow$ NSF GRFP grad student at U. Maryland}\smallskip\\
+Keaton Donaghue  & Oct 2022 -- & Co-mentor\\ 
+ && {\bf Publication:} Donaghue, ... Levy, et al. 2025 in prep.\\ 
+ & & {\small Undergrad at U. Kansas  \& NSF GRFP grad student at U. Maryland}\medskip\\
  %(advisor: Prof. E. Mills), (advisor: Prof. A. Bolatto)
 
-Lauren Cooke& May 2020,&{\bf Publication:} \mbox{Cooke, Levy, et al., 2022, \href{https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.1012C/abstract}{MNRAS}} \\
-&  Summer 2019  & \mbox{\small High school senior $\rightarrow$ undergrad at Harvard U. (Now: AI Data Analyst)}\smallskip\\
+Lauren Cooke& May 2020,&{\bf Publication:} Cooke, Levy, et al. 2022, \href{https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.1012C/abstract}{MNRAS} \\
+&  Summer 2019  & {\small High school senior \& undergrad at Harvard U. (Now: AI Data Analyst)}\medskip\\
 
  Brandon Davey& Jan 2020  & GRAD-MAP Winter Workshop\\
 %& \textit{Stellar Mass Profiles of Dwarf Galaxies: Illuminating their Dark Matter Content}\\
-& & {\bf Publication:} \mbox{Cooke, Levy, et al. {\small (incl. Davey)} 2022, \href{https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.1012C/abstract}{MNRAS}}\\
- & & {\small Undergrad of U. of South Florida (Now: Software Engineer)}\smallskip\\
+& & {\bf Publication:} Cooke, Levy, ... Davey, et al. 2022, \href{https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.1012C/abstract}{MNRAS}\\
+ & & {\small Undergrad of U. of South Florida (Now: Software Engineer)}\medskip\\
 
- Nathnael Feleke & \mbox{Summer 2019,} & GRAD-MAP Summer Scholars \& Winter Workshop\\
+ Nathnael Feleke & \mbox{Summer 2019,} & GRAD-MAP Summer Scholars Program \& Winter Workshop\\
  %&  \textit{The Effects of Beam Smearing on the Velocity Fields of Disk Galaxies}\\
  % & \textit{Hot or Cold? Degree of Rotation Dominance in the EDGE-CALIFA Survey} &  {\small Winter Workshop}\\
  %& {\small Summer Scholars co-mentors: Prof.~Alberto~Bolatto, Prof.~Stuart~Vogel, Dr.~Peter~Teuben}\\
- & Jan 2019& {\small Undergrad at Montgomery College, Takoma Park $\rightarrow$ Florida Inst. of Tech.}\smallskip\\
+ & Jan 2019& {\small Undergrad at Montgomery College, Takoma Park}\medskip\\
 
 Aurora Cid & Jan 2018 &  GRAD-MAP Winter Workshop \\
 %& \textit{How Does Cold Gas in Galaxies Move?} \\
- & &{\small Undergrad at CUNY College of Staten Island} \smallskip\\
+ & &{\small Undergrad at CUNY College of Staten Island} \medskip\\
 
- \mbox{Natalia Ram\'irez} & Jan 2017 & GRAD-MAP Winter Workshop \\
+Natalia Ram\'irez Vega & Jan 2017 & GRAD-MAP Winter Workshop \\
  %& \textit{How Much Mass Does a Galaxy Have in Gas, Stars, and Dark Matter?} \\
- Vega & & {\small \mbox{Undergrad at U. Costa Rica \& Fid\'elitas U. (Now: Computer Systems Engineer)}}\\
+  & & \mbox{\small Undergrad at U. Costa Rica \& Fid\'elitas U. (Now: Senior Data Engineer)}\\
 
 \end{longtable}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%% PROFESSIONAL SERVICE %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section*{\large Professional Service \& Memberships \vhrulefill{1.0pt}}
+
+\vspace{-12pt}
+\sectionname{Professional Service \& Memberships}
 \vspace{-6pt}
 
-\begin{longtable}{p{0.15\textwidth} p{0.6\textwidth}p{0.2\textwidth}}
+\subsectionname{Referee for articles published in}\vspace{-6pt}
+\begin{longtable}{p{0.97\textwidth}}
+A\&A, AJ, ApJ, MNRAS\medskip\\
+\end{longtable}\vspace{-18pt}
 
-Referee for & A\&A, AJ, ApJ, MNRAS \medskip & \\
-
-Working & PRIMA ``Cosmic Ecosystems" science working group & {\small Feb 2025 -- present}\\
-groups led & SALTUS ``Milky Way \& Nearby Galaxies" science working group & {\small Apr 2022 -- Oct 2024}\\ \medskip\\
-
-Meetings & SOC \hspace{53pt}\textit{``Spatio-spectral Modeling of Interferometric } & {\small May 2024}\\
-organized & \hspace{82pt}\textit{Data: Preparing for the Wideband Era"} & \\
- & Co-organizer \hspace{11pt} \textit{``2023 NSF AAPF Symposium"} & {\small Jan 2023}\\
- & SOC \hspace{53pt}\textit{``The Warm Ionized Medium Workshop"} & {\small Oct 2019} \medskip\\
-
-Seminars organized & Steward Obs. Science Coffee arXiv discussion & {\small 2022 -- 2023}\\
-& UMD Dept. of Astronomy weekly arXiv discussion & \small{2019 -- 2020}\medskip\\
-
-Review panels & JWST TAC Panel Manager \small{(part of STScI Fellow functional duties)} & {\small Cycles 4, 5}\\
-& NASA Review Panel --- Executive Secretary &\\
-& NSF Review Panel &\\
-& HST TAC\medskip & \\
-
-Committee & UMD Dept. of Astronomy faculty search committee & {\small Spring 2020}\\
-service & UMD Dept. of Astronomy Graduate Student Council rep. & {\small 2017 -- 2020}\medskip\\
-
-Other service & Co-lead editor for the Cycle 5 JWST Call for Proposals & {\small Cycle 5} \\
-&  \small{(part of STScI Fellow functional duties)}  \medskip &\\
-
-Collaboration  & STScI ISM* research group & {\small Sept 2024}\\
-membership & ACES/JACKS & {\small Apr 2023}\\
- & PHANGS & {\small Dec 2022}\\
-%& DEGAS & Jan 2018 \\
-& EDGE-CALIFA & {\small Aug 2015}\medskip\\
-%& Resolved Universe of Galaxies, 2020\\
-
-Professional   & International Astronomical Union (IAU) --- Junior Member & \\
-societies & American Astronomical Society (AAS) --- Full Member  \medskip &\\
-
-Certified to & Green Bank Telescope \small{(remote)} & \\%{\small 2018 --}\\
-operate & \\
-
-\end{longtable}
+\subsectionname{Working groups led}\vspace{-6pt}
+\begin{longtable}{p{0.2\textwidth}p{0.75\textwidth}}
+Feb 2025 -- present & PRIMA ``Cosmic Ecosystems" science working group\\
+Apr 2022 -- Oct 2024 & SALTUS ``Milky Way \& Nearby Galaxies" science working group\medskip\\
+ \end{longtable}\vspace{-12pt}
 
 
-\section*{\large Approved Observational Programs \vhrulefill{1.0pt}}
+\subsectionname{Conferences organized}\vspace{-6pt}
+\begin{longtable}{p{0.2\textwidth}p{0.65\textwidth}p{0.11\textwidth}}
+May 2024 & \textit{``Spatio-spectral Modeling of Interferometric Data: Preparing for the Wideband Era"} & {\small SOC} \\
+Jan 2023 & \textit{``2023 NSF AAPF Symposium"} & {\small Co-organizer}\\
+Oct 2019 & \textit{``The Warm Ionized Medium Workshop"} & {\small SOC} \medskip\\
+ \end{longtable}\vspace{-18pt}
+
+\subsectionname{Seminars organized}\vspace{-6pt}
+\begin{longtable}{p{0.2\textwidth}p{0.75\textwidth}}
+2022 -- 2023 & Steward Obs. Science Coffee arXiv discussion \\
+2019 -- 2020 & UMD Dept. of Astronomy weekly arXiv discussion \medskip\\
+\end{longtable}\vspace{-18pt}
+
+\subsectionname{Review panels}\vspace{-6pt}
+\begin{longtable}{p{0.2\textwidth}p{0.75\textwidth}}
+Mar 2024 & NASA Review Panel --- Executive Secretary\\
+Cycle 31 & HST TAC\\
+Mar 2023 & NSF Review Panel\medskip \\
+\end{longtable}\vspace{-18pt}
+
+\subsectionname{Committee service}\vspace{-6pt}
+\begin{longtable}{p{0.2\textwidth}p{0.75\textwidth}}
+Spring 2020 & UMD Dept. of Astronomy faculty search committee \\
+2017 -- 2020 & UMD Dept. of Astronomy Graduate Student Council rep. \medskip\\
+\end{longtable}\vspace{-18pt}
+
+\clearpage
+
+\subsectionname{Other service}\vspace{-6pt}
+\begin{longtable}{p{0.2\textwidth}p{0.75\textwidth}}
+\multicolumn{2}{l}{\small (Carried out as part of STScI Fellowship functional duties.)}\\
+Cycle 5 & Co-lead editor of the JWST Call for Proposals\\
+Cycles 4, 5 & JWST TAC Panel Manager\medskip\\
+\end{longtable}\vspace{-18pt}
+
+\subsectionname{Collaboration membership}\vspace{-6pt}
+\begin{longtable}{p{0.2\textwidth}p{0.75\textwidth}}
+Sept 2024 & STScI ISM* research group\\
+Apr 2023 & \mbox{ACES/JACKS {\small (ALMA CMZ Exploration Survey/JVLA Ammonia CMZ K-band Survey)}}\\
+Dec 2022 & PHANGS {\small (Physics at High Resolution in Nearby GalaxieS)}\\
+% Jan 2018 & DEGAS\\
+Aug 2015 & EDGE {\small (Extragalactic Database for Galaxy Evolution)} \medskip\\
+\end{longtable}\vspace{-18pt}
+
+\subsectionname{Professional society membership}\vspace{-6pt}
+\begin{longtable}{p{0.97\textwidth}}
+International Astronomical Union (IAU) --- Junior member\\
+American Astronomical Society (AAS) --- Full member  \medskip\\
+\end{longtable}\vspace{-18pt}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%% OBSERVING PROGRAMS %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\sectionname{Approved Observing Programs}
 \vspace{-6pt}
 
-{\bf ALMA} {\small (Atacama Large Millimeter/submillimeter Array)} \vhrulefill{0.5pt}\\
+\subsectionname{ALMA \textmd{\small (Atacama Large Millimeter/submillimeter Array)}}\\
 { PI of 3 programs:}
-\vspace{-7pt}
+\vspace{-6pt}
 \begin{longtable}{p{0.07\textwidth}p{0.9\textwidth}}
 \mbox{Cycle 11} & \mbox{\textit{``Unveiling Embedded Star Formation and Feedback in the Prototypical Merger-Starburst VV\,114"}}\smallskip\\
 Cycle 8 & \textit{``Complete Molecular Gas Coverage in Nearby Low-Luminosity AGN"}  \smallskip\\
 Cycle 7 &  \textit{``Ionized Gas, Radiation Field, Masses, and Dust Temperature in Forming Massive Star Clusters in the NGC253 Starburst"} \\
 %& Rank: A --- Awarded 24.1 hours \smallskip \\
 \end{longtable}
-\vspace{-18pt}
-{ Co-I on a total of  30 programs}  in Cycles 11 {\em(N=3)}, 10 {\em(10)}, 9 {\em(3)}, 8 {\em(9)}, 7 {\em(2)}, 6 {\em(2)}, 4 {\em(1)}
+\vspace{-15pt}
+Co-I on a total of  32 programs  in Cycles 12\,{\em(N=6 incl.~1~large)}, 11\,{\em (6)}, 10\,{\em(9)}, 9\,{\em(3)}, 8\,{\em(3)}, 7\,{\em(2)}, 6\,{\em(2)}, 4\,{\em(1)}.\medskip
 
 
-{\bf GBT} {\small (Green Bank Telescope)} \vhrulefill{0.5pt}\\
-Co-I on a total of 3 programs in semesters 2022b {\em(1)}, 2021b {\em(1 large)}, 2021a {\em(1)}
+\subsectionname{GBT \textmd{\small (Green Bank Telescope)}}\\
+{\small\em I am certified to remotely operate the GBT.}\\
+Co-I on a total of 3 programs in Semesters 2022b\,{\em(1)}, 2021b\,{\em(1 large)}, 2021a\,{\em(1)}.\medskip
 
 %2021b & Co-I &  \textit{``GBT EDGE: A Representative Survey of the z=0 Universe with }\\
 %& {\small PI: A. Bolatto} & \textit{Full IFU Spectroscopy"}\\
@@ -569,8 +654,8 @@ Co-I on a total of 3 programs in semesters 2022b {\em(1)}, 2021b {\em(1 large)},
 %& {\small PI: K. Emig} & \textit{Forming Region"}\\
 %&&\\
 
-{\bf HST} {\small (Hubble Space Telescope)} \vhrulefill{0.5pt}\\
-Co-I on a total of 2 programs in Cycles 32 {\em(1)}, 31 {\em(1 treasury)}
+\subsectionname{HST \textmd{\small (Hubble Space Telescope)}}\\
+Co-I on a total of 2 programs in Cycles 32\,{\em(1)}, 31\,{\em(1 treasury)}.\medskip
 
 %Cycle 32 & Co-I &  \textit{``Decoding stellar feedback in action with an HST+MUSE+JWST}\\
 %& {\small PI: D. Thilker} & \textit{ full-disk survey of starburst galaxy prototype NGC 253"}\medskip \\
@@ -579,8 +664,8 @@ Co-I on a total of 2 programs in Cycles 32 {\em(1)}, 31 {\em(1 treasury)}
 %&& Awarded 169 primary orbits, 74 parallel orbits\medskip \\
 %&&\\
 
-{\bf NOEMA} {\small (Northern Extended Millimeter Array)} \vhrulefill{0.5pt}\\
-Co-I on a total of 2 programs in semesters 2022a {\em(1)}, 2021b {\em(1)}
+\subsectionname{NOEMA \textmd{\small (Northern Extended Millimeter Array)}}\\
+Co-I on a total of 2 programs in Semesters 2022a\,{\em(1)}, 2021b\,{\em(1)}.\medskip
 
 %2022a & Co-I & \textit{``Resolving the Star Formation Quenching Mechanisms of Green }\\
 %& {\small PI: D. Colombo} &\textit{Valley Galaxies"} \medskip\\
@@ -588,12 +673,12 @@ Co-I on a total of 2 programs in semesters 2022a {\em(1)}, 2021b {\em(1)}
 %& {\small PI: F. Walter} & \\
 %&&\\
 
-{\bf JWST} {\small (James Webb Space Telescope)} \vhrulefill{0.5pt}\\
-Co-I on a total of  6 programs in Cycles 3 {\em(1)}, 2 {\em(3 incl. 1 treasury)}, 1 {\em(2)}, including:
+\subsectionname{JWST \textmd{\small (James Webb Space Telescope)}}\\
+Co-I on a total of  6 programs in Cycles 3\,{\em(1)}, 2\,{\em(3 incl. 1 treasury)}, 1\,{\em(2)}, including:
 \vspace{-9pt}
 \begin{longtable}{p{0.07\textwidth}p{0.9\textwidth}}
 Cycle 1 &  \textit{``Dissecting the Prototypical Starbursts NGC\,253 and M\,82 and Their Cool Galactic Winds"}\\
-& {\small I led the technical planning and justification for this proposal.}\\
+& {\small I led the technical planning and justification for this proposal.}\medskip
 \end{longtable}
 \vspace{-15pt}
 
@@ -616,8 +701,8 @@ Cycle 1 &  \textit{``Dissecting the Prototypical Starbursts NGC\,253 and M\,82 a
 %&& Awarded 24.6 hours\\
 %&&\\
 
-{\bf LMT} {\small (Large Millimeter Telescope)} \vhrulefill{0.5pt}\\
-Co-I on a total of 1 program in semester 2021-S1 {\em(1)}
+\subsectionname{LMT \textmd{\small (Large Millimeter Telescope)}}\\
+Co-I on a total of 1 program in Semester 2021-S1\,{\em(1)}.\medskip
 
 %2021-S1 & Co-I & \textit{``The Connection between Molecular Gas Density, Star}\\
 %& {\small PI: S. S\'anchez} & \textit{-formation and Quenching"}\\
@@ -625,22 +710,22 @@ Co-I on a total of 1 program in semester 2021-S1 {\em(1)}
 %&&\\
 
 
-{\bf SMA} {\small (Submillimeter Array)} \vhrulefill{0.5pt}\\
-Co-I on a total of 3 programs in semesters 2025A ({\em1}), 2024B ({\em1}), 2018B {\em(1)}
+\subsectionname{SMA \textmd{\small (Submillimeter Array)}}\\
+Co-I on a total of 3 programs in Semesters 2025A\,({\em1}), 2024B\,({\em1}), 2018B\,{\em(1)}.\medskip
 
 %2018b & Co-I & \textit{``Searching for Embedded Super Star Clusters in M82"}\\
 %& {\small PI: M. Jim\'enez Donaire} & \\
 %&&\\
 
-{\bf SOFIA} {\small (Stratospheric Observatory for Infrared Astronomy)} \vhrulefill{0.5pt}\\
+\subsectionname{SOFIA \textmd{\small (Stratospheric Observatory for Infrared Astronomy)}}\\
 {PI of 1 program:}
-\vspace{-9pt}
+\vspace{-6pt}
 \begin{longtable}{p{0.11\textwidth}p{0.86\textwidth}}
 \ Cycles 8/7 & \textit{``The GREAT Cigar: Mapping [CII] in the Disk and Outflow of M82"}\\
 %& Rank: A/B --- Awarded 9 hours and \$90,000\medskip\\
 \end{longtable}
-\vspace{-18pt}
-Co-I on a total of 5 programs in Cycles 9 {\em(1)}, 8 {\em(2)}, 7 {\em(2)}
+\vspace{-15pt}
+Co-I on a total of 5 programs in Cycles 9\,{\em(1)}, 8\,{\em(2)}, 7\,{\em(2)}.\medskip
 
 %Cycle 9 Laura's
 %Cycle 8 Alberto's LMC one
@@ -650,8 +735,8 @@ Co-I on a total of 5 programs in Cycles 9 {\em(1)}, 8 {\em(2)}, 7 {\em(2)}
 %& {\small PI: J. Spilker} & \textit{Galaxies?"}\\
 %&&\\
 
-{\bf VLA} {\small (Very Large Array)} \vhrulefill{0.5pt}\\
-Co-I on a total of 8 programs in semesters 2025a {\em(1)}, 2024b {\em(1)}, 2022b {\em(2)}, 2022a {\em(2)}, 2021b {\em(1)}, 2019b~{\em(1)}\smallskip
+\subsectionname{VLA \textmd{\small (Very Large Array)}}\\
+Co-I on a total of 8 programs in Semesters 2025a\,{\em(1)}, 2024b\,{\em(1)}, 2022b\,{\em(2)}, 2022a\,{\em(2)}, 2021b\,{\em(1)}, 2019b\,{\em(1)}.\smallskip
 
 %2024b & Co-I & \textit{``A Census of Young Massive Clusters and Supernova Remnants}\\
 %& {\small PI: J. Sun} &\textit{in a Nuclear Starburst"}\medskip\\
@@ -668,122 +753,126 @@ Co-I on a total of 8 programs in semesters 2025a {\em(1)}, 2024b {\em(1)}, 2022b
 %2019b & Co-I & \textit{``Methanol Masers in Global Starbursts"}\\
 %& {\small PI: M. Gorski} & \\
 
-\section*{\large Teaching Experience \vhrulefill{1.0pt}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%% TEACHING EXPERIENCE %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{-0pt}
+\sectionname{Teaching Experience}
 \vspace{-6pt}
 
-\begin{longtable}{p{0.25\textwidth} p{0.575\textwidth}p{0.15\textwidth}}
+\begin{longtable}{p{0.12\textwidth} p{0.705\textwidth}p{0.15\textwidth}}
 
-Apr 2023 & Guest Lecturer --- \href{https://github.com/rclevy/rclevy.github.io/blob/master/assets/pdf/BioDiversity_GuestLecture_TranslationalSciComm_RLevy_20230405.pdf}{Translational Science Communication} &{\small U. Arizona}\\
-& ACBS 493/ECOL 499/GEOS 393/NSCS 393: & \\
-&The Bio/Diversity Project Internship Program\medskip&\\
+Apr 2023 & Guest Lecturer: \href{https://github.com/rclevy/rclevy.github.io/blob/master/assets/pdf/BioDiversity_GuestLecture_TranslationalSciComm_RLevy_20230405.pdf}{\em ``Translational Science Communication"} &{\small U. Arizona}\\
+& ACBS 493/ECOL 499/GEOS 393/NSCS 393: The Bio/Diversity Project Internship Program\medskip&\\
+%& Prof. Stephanie Murphy\smallskip\\
 
 Spring 2020 & Teaching and Lab Assistant & {\small U. Maryland}\\
-& \mbox{Astronomy 121: Introductory Astrophysics II --- Stars \& Beyond}\medskip & \\
+& ASTR 121: Introductory Astrophysics II --- Stars \& Beyond\medskip & \\
 %& Prof. Stuart Vogel\smallskip\\
 
 Fall 2019 & Teaching Assistant & {\small U. Maryland}\\
- & Astronomy 120: Introductory Astrophysics --- Solar System\medskip & \\
+ & ASTR 120: Introductory Astrophysics I --- Solar System\medskip & \\
 %& Prof. Stuart Vogel\smallskip\\
 
-Sept 2018 & Guest Lecturer --- \href{https://github.com/rclevy/LaTeX-Examples-with-Overleaf-for-ASTR-695}{LaTeX Examples with Overleaf} & {\small U. Maryland}\\
-& Astronomy 695: First Year Seminar \medskip&\\
+Sept 2018 & Guest Lecturer: \href{https://github.com/rclevy/LaTeX-Examples-with-Overleaf-for-ASTR-695}{\em ``LaTeX Examples with Overleaf"} & {\small U. Maryland}\\
+& ASTR 695: First Year Seminar \medskip&\\
+%& Prof. Cole Miller\smallskip\\
 
 Spring 2014 & Preceptor & \small {U. Arizona}\\
-& Physics 141: Introductory Mechanics\medskip&\\
+& PHYS 141: Introductory Mechanics\medskip&\\
 %& Dr. Colin Wallace\smallskip \\
 
 Spring 2013 & Undergraduate Teaching Coordinator & {\small U. Arizona} \\
-& Math 100/100AX: Prep. for College Algebra \medskip\\
+& MATH 100/100AX: Prep. for College Algebra \medskip\\
 %& Ms. Michelle Woodward\smallskip \\
 
 Fall 2012 & Undergraduate Teaching Coordinator & {\small U. Arizona}\\
-& Math 100/100AX: Prep. for College Algebra \medskip\\
+& MATH 100/100AX: Prep. for College Algebra \medskip\\
 %& Ms. Michelle Woodward \smallskip \\
 
 Spring 2012 & Lead Undergraduate Teaching Assistant &  {\small U. Arizona}\\
-& Math 100/100AX: Prep. for College Algebra \medskip\\
+& MATH 100/100AX: Prep. for College Algebra \medskip\\
 %& Ms. Michelle Woodward\smallskip\\
 
 Fall 2011 & Undergraduate Teaching Assistant & {\small U. Arizona} \\
-& Math 100/100AX: Prep. for College Algebra\\
+& MATH 100/100AX: Prep. for College Algebra\\
 %& Ms. Michelle Woodward \smallskip\\
 \end{longtable}
 
 %\clearpage
 
-\section*{\large Selected Outreach Experience \vhrulefill{1.0pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%% OUTREACH EXPERIENCE %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{-6pt}
+\sectionname{Outreach Experience}
 \vspace{-6pt}
 
-\begin{longtable}{p{0.25\textwidth} p{0.75\textwidth}}
+\subsectionname{Imagine Your STEM Future (IYSF)}\\
+Women in Science and Engineering (WISE), U. Arizona\vspace{-6pt}
+\begin{longtable}{p{0.2\textwidth} p{0.0\textwidth}p{0.7425\textwidth}}
+Aug 2023 -- Sept 2024 & \tabitem & Developed and implemented a hands-on astronomy lesson and activity for the \href{https://wise.arizona.edu/imagine-your-stem-future}{WISE IYSF} program. Materials for my curriculum about the phases of the Moon can be found in \href{https://drive.google.com/drive/folders/1UUYzn8Jej_imQFitYFOTIEtYxPLFBB2p?usp=drive_link}{this Google Drive repository}. \\
+Mar 2024, Feb 2023  & \tabitem & Guest lecturer on my career path for students in IYSF program.\medskip\\
+\end{longtable}\vspace{-18pt}
 
-\multicolumn{2}{l}{\bf Imagine Your STEM Future (IYSF)}\vhrulefill{0.5pt}\\
-\multicolumn{2}{l}{{Women in Science and Engineering (WISE)}, U. Arizona}\smallskip \\
-Aug 2023 -- Sept 2024 & \tabitem Developed and implemented a hands-on astronomy lesson and activity for\\
-& \hspace{13pt}the \href{https://wise.arizona.edu/imagine-your-stem-future}{WISE IYSF} program. Materials for my curriculum about the phases\\
-& \hspace{13pt}of the Moon can be found in \href{https://drive.google.com/drive/folders/1UUYzn8Jej_imQFitYFOTIEtYxPLFBB2p?usp=drive_link}{this Google Drive repository}. \\
-Mar 2024, Feb 2023  & \tabitem Guest lecturer on my career path for students in IYSF program.\medskip\\
+\subsectionname{Public Lectures}\vspace{-6pt}
+\begin{longtable}{p{0.2\textwidth} p{0.0\textwidth}p{0.7425\textwidth}}
+Dec 2022 & \tabitem & Tucson Amateur Astronomy Association Lecture: \href{https://www.youtube.com/watch?v=dGIWu6QUKYk}{\em ``A JWST View of Starburst Galaxies: Sweet Data Coming Soon!"}\\
+Nov 2022 & \tabitem & Steward Observatory Public Evening Lecture Series: \href{https://arizona.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=65cd48f5-6940-4797-9c54-af5c003f9740}{\em ``A JWST View of Starburst Galaxies: Sweet Data Coming Soon!"}\medskip\\
+\end{longtable}\vspace{-18pt}
 
-\multicolumn{2}{l}{\bf Public Lectures}\vhrulefill{0.5pt}\smallskip\\
-Dec 2022 & \tabitem Tucson Amateur Astronomy Association Lecture:\\
-& \hspace{13pt}\href{https://www.youtube.com/watch?v=dGIWu6QUKYk}{\em ``A JWST View of Starburst Galaxies: Sweet Data Coming Soon!"}\\
-Nov 2022 & \tabitem Steward Observatory Public Evening Lecture Series:\\
-& \hspace{13pt}\href{https://arizona.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=65cd48f5-6940-4797-9c54-af5c003f9740}{\em ``A JWST View of Starburst Galaxies: Sweet Data Coming Soon!"}\medskip\\
+\subsectionname{Public Events}\\
+Engaged with the public through astronomy/physics/optics demonstrations and activities.\vspace{-6pt}
+\begin{longtable}{p{0.2\textwidth} p{0.0\textwidth}p{0.7425\textwidth}}
+Apr 2016 -- 2019& \tabitem & Maryland Day, U. Maryland's annual open house\\
+Apr 2016 & \tabitem & U.S. Science and Engineering Festival \\
+March 2014, 2015 & \tabitem & Tucson Festival of Books \small{(part of NOAO EPO, see below)}\\
+June 2013 -- 2015 & \tabitem & Arizona-Sonora Desert Museum Cool Summer Astronomy Night \small{(2014, 2015 part of NOAO EPO, see below)}\medskip\\
+\end{longtable}\vspace{-18pt}
 
-\multicolumn{2}{l}{\bf Public Events}\vhrulefill{0.5pt}\\
-\multicolumn{2}{l}{Engaged with the public through astronomy/physics/optics demonstrations and activities.}\smallskip\\
-Apr 2019, 2018, 2017, 2016 & \tabitem Maryland Day, U. Maryland's annual open house\\
-Apr 2016 & \tabitem U.S. Science and Engineering Festival \\
-March 2015, 2014 & \tabitem Tucson Festival of Books \small{(part of NOAO EPO, see below)}\\
-June 2015, 2014, 2013 & \tabitem Arizona-Sonora Desert Museum Cool Summer Astronomy Night\\
-& \hspace{13pt}\small{(2014, 2015 part of NOAO EPO)}\medskip\\
+\subsectionname{GRAD-MAP}\\
+{\bf (Graduate Resources Advancing Diversity with Maryland Astronomy and Physics)}\\
+Dept. of Astronomy, U. Maryland\vspace{-6pt}
+\begin{longtable}{p{0.2\textwidth} p{0.0\textwidth}p{0.7425\textwidth}}
+2016 -- 2020 & \tabitem & Research mentor for four students over four years during the week-long Winter Workshop.\\
+& \tabitem & Co-mentor for one student during the 10-week Summer Scholars program.\\
+& \tabitem & Helped plan Winter Workshops and Summer Scholars programs.\\
+& \tabitem & Developed and led professional development sessions during the Winter Workshops and Summer Scholars programs.\\
+& \tabitem & Co-organized and led two weekend trips to the Green Bank Observatory.\\
+& \tabitem & Helped organize and run the annual Open House, including helping to develop the inaugural Open House.\\
+& \tabitem & Attended Collaborative Seminar Series at local institutions.\medskip\\
+\end{longtable}\vspace{-18pt}
 
-\multicolumn{2}{l}{\bf Graduate Resources Advancing Diversity} \vhrulefill{0.5pt}\\
-\multicolumn{2}{l}{\bf with Maryland Astronomy and Physics (GRAD-MAP)}\\
-\multicolumn{2}{l}{Dept. of Astronomy, U. Maryland} \smallskip \\
-2016 -- 2020 & \tabitem Research mentor for four students over four years during the week-long Winter\\
-& \hspace{13pt}Workshop.\\
-& \tabitem Co-mentor for one student during the 10-week Summer Scholars program.\\
-& \tabitem Helped plan Winter Workshops and Summer Scholars programs.\\
-& \tabitem Developed and led professional development sessions during the Winter\\
-& \hspace{13pt}Workshops and Summer Scholars programs.\\
-& \tabitem Co-organized and led two weekend trips to the Green Bank Observatory.\\
-& \tabitem Helped organize and run the annual Open House, including helping to\\
-& \hspace{13pt}develop the inaugural Open House.\\
-& \tabitem Attended Collaborative Seminar Series at local institutions.\medskip\\
-
-\multicolumn{2}{l}{\bf  National Optical Astronomy Observatory (NOAO)}\vhrulefill{0.5pt}\\
-\multicolumn{2}{l}{{\bf  Education and Public Outreach (EPO) Department} \footnotesize{(Note: NOAO is now NOIRLab)}}\smallskip\\
-Aug 2013 --  July 2015 & \tabitem Key developer of all aspects of the United Nations-sanctioned ``International\\
-& \hspace{13pt}Year of Light 2015" \href{https://noirlab.edu/public/products/education/edu001/}{Quality Lighting Teaching Kit}, including activity creation\\
-& \hspace{13pt}and development, materials sourcing, instructional guide and media writing,\\
-& \hspace{13pt}state and national educational standards verification, and classroom testing.\\
-& \hspace{13pt}These kits were disseminated internationally and were available for retail sale.\\
-& \tabitem Interacted extensively with the public, K-12 students, K-12 teachers, and\\
-& \hspace{13pt}members of the Tohono O'odham Nation. \\
-& \tabitem Developed, planned, prepared, led, and/or supported 1--2 outreach activities\\
-& \hspace{13pt}per week (on average) focused on astronomy and/or dark skies education. \\
-& \tabitem Developed, planned, prepared, led, and/or supported local, national, and\\
-& \hspace{13pt}international teacher training workshops and outreach events (e.g., at AAS,\\
-& \hspace{13pt}AGU, and IAU meetings). \\
-&  \tabitem Supported the Globe at Night citizen-science campaign, including website\\
-& \hspace{13pt}design, social media, development of materials, newsletter writing, podcast\\
-& \hspace{13pt}writing and recording, and facilitation of material translations. \\
-& \tabitem Hired, trained, mentored, and evaluated other student employees. \\
-June 2016, 2015 &\tabitem Guest lecturer and support staff for two \href{http://www.colorsofnature.org}{Colors of Nature} Summer Aca-\\
-& \hspace{13pt}demies in Tucson, AZ. This NSF-funded educational research study investi-\\
-& \hspace{13pt}gated the development of middle-school girls' identities as scientists as they \\
-& \hspace{13pt}explored the intersections of art and science (STEAM) in a two-week program. \\
-\end{longtable}
+\subsectionname{Education and Public Outreach (EPO) Department}\\
+National Optical Astronomy Observatory (NOAO) {\footnotesize (Note: NOAO is now NOIRLab)}\vspace{-6pt}
+\begin{longtable}{p{0.2\textwidth} p{0.0\textwidth}p{0.7425\textwidth}}
+Aug 2013 --  July 2015 & \tabitem & Key developer of all aspects of the United Nations-sanctioned ``International Year of Light 2015" \href{https://noirlab.edu/public/products/education/edu001/}{Quality Lighting Teaching Kit}, including activity creation and development, materials sourcing, instructional guide and media writing, state and national educational standards verification, and classroom testing. These kits were disseminated internationally and were available for retail sale.\\
+& \tabitem & Interacted extensively with the public, K-12 students, K-12 teachers, and members of the Tohono O'odham Nation. \\
+& \tabitem & Developed, planned, prepared, led, and/or supported 1--2 outreach activities per week (on average) focused on astronomy and/or dark skies education. \\
+& \tabitem & Developed, planned, prepared, led, and/or supported local, national, and international teacher training workshops and outreach events (e.g., at AAS, AGU, and IAU meetings). \\
+&  \tabitem & Supported the Globe at Night citizen-science campaign, including website design, social media, development of materials, newsletter writing, podcast writing and recording, and facilitation of material translations. \\
+& \tabitem & Hired, trained, mentored, and evaluated other student employees. \\
+June 2016, 2015 & \tabitem & Guest lecturer and support staff for two \href{http://www.colorsofnature.org}{Colors of Nature} Summer Academies in Tucson, AZ. This NSF-funded educational research study investigated the development of middle-school girls' identities as scientists as they explored the intersections of art and science (STEAM) in a two-week program. \\
+\end{longtable}\vspace{-12pt}
 
 
 %\clearpage
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%% FULL PUBLICATION LIST %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section*{\large Publication List \vhrulefill{1.0pt}}
-\vspace{-12pt}
+
+\sectionname{Full Publication List}
+\vspace{-6pt}
 
 \totalcitations\\
-Links to current publications in \adspublink, \scixpublink, and \orcidlink
+Links to current publications in \adspublink, \scixpublink, and \orcidlink.
 
 \begingroup
 \let\clearpage\relax
