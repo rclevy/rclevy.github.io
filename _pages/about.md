@@ -6,7 +6,7 @@ subtitle: STScI Postdoctoral Fellow<br />Space Telescope Science Institute (STSc
 
 profile:
   align: left
-  image: RLevy_headshot.jpg
+  image: RLevy_headshot_small.jpg
   image_circular: false # crops the image to make it circular
 
 news: true  # includes a list of news items
